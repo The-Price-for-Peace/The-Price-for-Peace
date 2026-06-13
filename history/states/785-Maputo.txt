@@ -1,0 +1,13 @@
+state={
+	id=785
+	name="STATE_785"
+	provinces={
+		2193 5177 5212 8245 12935 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = POR
+	}
+}

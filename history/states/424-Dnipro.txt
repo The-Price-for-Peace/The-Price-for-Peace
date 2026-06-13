@@ -1,0 +1,26 @@
+state={
+	id=424
+	name="STATE_424"
+	state_category = city
+	provinces={
+		453 486 3508 6423 9433 9463 9479 11422 11437 11452 11461 
+	}
+	manpower=2000000
+	local_supplies=0
+	history = {
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = UKR
+
+		victory_points = {
+			11437 20
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1 
+			air_base = 4
+		}
+	}
+}

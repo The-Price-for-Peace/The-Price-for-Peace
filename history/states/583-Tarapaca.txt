@@ -1,0 +1,13 @@
+state={
+	id=583
+	name="STATE_583"
+	provinces={
+		5131 8217 8231 13303 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = CHL
+	}
+}

@@ -1,0 +1,77 @@
+characters = {
+	USA_harry_s_truman = {
+		name = USA_harry_s_truman
+		portraits = {
+			civilian = {
+				large=GFX_portrait_Harry_S_Truman
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+		}
+	}
+
+	USA_dwight_d_eisenhower = {
+		name=USA_dwight_d_eisenhower
+		portraits={
+			army={
+				large=GFX_portrait_USA_dwight_d_eisenhower
+			}
+			army={
+				small="GFX_idea_dwight_eisenhower"
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = dwight_eisenhower
+			traits = {
+				army_chief_offensive_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
+		corps_commander={
+			traits={ trait_cautious armor_officer politically_connected organizer }
+			skill=3
+			attack_skill=2
+			defense_skill=1
+			planning_skill=4
+			logistics_skill=3
+		}
+	}
+	
+	USA_douglas_mcarthur = {
+		name = USA_douglas_macarthur
+		portraits={
+			army={
+				small="GFX_idea_douglas_macarthur"
+			}
+			army={
+				large=GFX_portrait_USA_douglas_macarthur
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = douglas_macarthur
+			traits = {
+				army_chief_morale_2
+			}
+			cost = 100
+		}
+		field_marshal={
+			traits={ brilliant_strategist career_officer media_personality politically_connected offensive_doctrine }
+			skill=4
+			attack_skill=4
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=2
+
+		}
+	}
+}

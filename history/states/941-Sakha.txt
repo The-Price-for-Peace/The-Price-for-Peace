@@ -1,0 +1,15 @@
+state={
+	id=941
+	name="STATE_941"
+	provinces={
+		1722 1745 1819 2877 3184 4006 6085 6211 12549 12634 13060 13061 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	impassable = yes
+	force_link_ownership_to = 942
+	history = {
+		owner = SOV
+	}
+}

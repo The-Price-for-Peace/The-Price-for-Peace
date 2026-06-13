@@ -1,0 +1,28 @@
+state={
+	id=239
+	name="STATE_239"
+	state_category = large_town
+	provinces={
+		895 3526 3936 6990 10163 11818 
+	}
+	manpower=1400000
+	local_supplies=0
+	history = {
+		owner = GRE
+		add_core_of = GRE
+
+		victory_points = {
+			11818 20
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			dockyard = 1
+			11818 = {
+				naval_base = 4
+			}
+			air_base = 2
+		}
+	}
+}

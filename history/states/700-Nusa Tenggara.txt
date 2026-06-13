@@ -1,0 +1,13 @@
+state={
+	id=700
+	name="STATE_700"
+	provinces={
+		1298 1339 1355 4301 4358 7293 7321 10175 10191 10219 12151 12162 12206 12219 12234 13001 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = INS
+	}
+}

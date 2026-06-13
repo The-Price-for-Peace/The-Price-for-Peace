@@ -1,0 +1,26 @@
+state={
+	id=324
+	name="STATE_324"
+	state_category = town
+	provinces={
+		624 3592 3596 9611 11581 11594 
+	}
+	manpower=600000
+	local_supplies=0
+	history = {
+		owner = YUG
+		add_core_of = YUG
+		add_claim_by = CRO
+
+		victory_points = {
+			3592 30
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 3
+		}
+	}
+}

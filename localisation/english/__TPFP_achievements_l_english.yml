@@ -1,0 +1,79 @@
+﻿l_english:
+ thepriceforpeaceachievements_1950:0 "The Price for Peace"
+
+ millenium_dawn_NAME:0 "Millenium Dawn"
+ millenium_dawn_DESC:0 "Reach the year 2000."
+
+ JAP_the_empire_strikes_back_NAME:0 "The Empire Strikes Back"
+ JAP_the_empire_strikes_back_DESC:0 "As fascist or non aligned Japan, nuke the United States."
+ achievement_JAP_the_empire_strikes_back:0 "Nuked the United States as fascist or non aligned Japan"
+
+ the_wall_stands_NAME:0 "The Wall Stands!"
+ the_wall_stands_DESC:0 "As East Germany, be the only Germany."
+
+ rather_red_than_dead_NAME:0 "Rather Red Than Dead"
+ rather_red_than_dead_DESC:0 "As the United States, turn communist."
+
+ i_did_hear_no_bell_NAME:0 "I Did Hear No Bell"
+ i_did_hear_no_bell_DESC:0 "As Nationalist China, win the Chinese Civl War."
+ achievement_CHI_i_did_hear_no_bell:0 "Won the Chinese Civil War as Nationalist China"
+
+ nobel_peace_prize_NAME:0 "Nobel Peace Prize"
+ nobel_peace_prize_DESC:0 "As the United States, own Greenland."
+
+ zero_seconds_to_midnight_NAME:0 "Zero Seconds To Midnight"
+ zero_seconds_to_midnight_DESC:0 "Deploy a nuke."
+ achievement_zero_seconds_to_midnight:0 "Deployed a nuke"
+
+ is_there_someone_you_forgot_to_ask_NAME:0 "Is there someone you forgot to ask?"
+ is_there_someone_you_forgot_to_ask_DESC:0 "As West Germany, recover your territories east of the Oder-Neisse Line."
+
+ hardlining_NAME:0 "Hardlining"
+ hardlining_DESC:0 "As West Germany, listen to Seehorn and AKON and claim, then restore, the borders of the German Empire."
+ achievement_GER_hardlining_possible:0 "Claimed imperial borders."
+
+ nuclear_proliferation_NAME:0 "Nuclear Proliferation"
+ nuclear_proliferation_DESC:0 "Have at least 10000 nukes stockpiled."
+
+ wasteland_pact_NAME:0 "Wasteland Pact"
+ wasteland_pact_DESC:0 "As the United States, nuke Warsaw."
+ achievement_USA_wasteland_pact:0 "Nuked Warsaw"
+
+ the_cantons_speak_cantonese_NAME:0 "The Cantons Speak Cantonese"
+ the_cantons_speak_cantonese_DESC:0 "As any China, fully control Switzerland."
+
+ no_more_separatism_NAME:0 "No More Separatism"
+ no_more_separatism_DESC:0 "As Spain, nuke the Basque Country or Catalonia."
+ achievement_SPA_no_more_separatism:0 "Nuked Basque Country or Catalonia"
+
+ round_two_NAME:0 "Round Two"
+ round_two_DESC:0 "As the United States, nuke Japan. Again."
+ achievement_USA_round_two:0 "Nuked Japan"
+
+ true_communism_comrade_NAME:0 "True Communism, Comrade!"
+ true_communism_comrade_DESC:0 "As the Soviet Union, ensure that every country in Eurasia is communist."
+
+ kash_money_NAME:0 "Kash Money"
+ kash_money_DESC:0 "As China, India or Pakistan, own all of Kashmir."
+
+ its_just_like_me_NAME:0 "It's Just Like Me!"
+ its_just_like_me_DESC:0 "As Yugoslavia, have a nuke."
+
+ the_international_NAME:0 "The International"
+ the_international_DESC:0 "As the Soviet Union, turn every country communist."
+
+ not_a_surveilance_state_NAME:0 "Not A Surveilance State"
+ not_a_surveilance_state_DESC:0 "As East Germany, fully upgrade your intelligence agency."
+
+ its_united_NAME:0 "It's United?"
+ its_united_DESC:0 "As Japan, own all of Korea."
+
+ what_are_you_transporting_NAME:0 "What Are You Transporting?"
+ what_are_you_transporting_DESC:0 "Have more than 5000 convoys."
+
+ free_palestine_NAME:0 "Free Palestine"
+ free_palestine_DESC:0 "As Palestine, control all of the territory of the British Mandate of Palestine."
+
+ in_poland_im_called_russian_in_russia_im_called_polish_NAME:0 "In Poland I'm Called Russian, In Russia I'm Called Polish"
+ in_poland_im_called_russian_in_russia_im_called_polish_DESC:0 "As Poland, fire Konstantin Rokossovsky and have him return to Russia."
+ POL_fired_konstantin_rokossovsky:0 "Fired Konstantin Rokossovsky"

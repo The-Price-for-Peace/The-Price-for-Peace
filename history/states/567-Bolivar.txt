@@ -1,0 +1,13 @@
+state={
+	id=567
+	name="STATE_567"
+	provinces={
+		1981 5317 7915 8050 10736 10849 10879 13362 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = VEN
+	}
+}

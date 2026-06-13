@@ -1,0 +1,13 @@
+state={
+	id=744
+	name="STATE_744"
+	provinces={
+		4566 7544 7559 7572 10221 10398 10411 12173 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = SIA
+	}
+}

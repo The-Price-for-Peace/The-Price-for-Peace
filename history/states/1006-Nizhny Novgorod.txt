@@ -1,0 +1,13 @@
+state={
+	id=1006
+	name="STATE_1006"
+	provinces={
+		3303 3322 6284 6299 6343 6410 9276 9298 9344 9360 9407 11262 11277 11344 11375 11394 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = SOV
+	}
+}

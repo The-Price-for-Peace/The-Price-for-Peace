@@ -1,0 +1,13 @@
+state={
+	id=463
+	name="STATE_463"
+	provinces={
+		909 3788 3876 3907 3951 6808 6877 9811 11860 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = TUR
+	}
+}

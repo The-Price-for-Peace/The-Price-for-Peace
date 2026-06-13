@@ -1,0 +1,25 @@
+capital = 484
+
+recruit_character = POL_boleslav_bierut
+recruit_character = POL_konstantin_rokossovsky
+
+SOV = {
+	set_autonomy = {
+		target = POL
+		autonomy_state = autonomy_puppet
+	}
+}
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1949.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 75
+	democratic = 20
+	neutrality = 3
+	fascism = 2
+}

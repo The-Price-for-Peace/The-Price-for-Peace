@@ -1,0 +1,13 @@
+state={
+	id=538
+	name="STATE_538"
+	provinces={
+		3030 3068 3185 6210 9061 9181 13114 13115 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = FIN
+	}
+}

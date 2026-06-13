@@ -1,0 +1,13 @@
+state={
+	id=761
+	name="STATE_761"
+	provinces={
+		4893 7448 10476 10896 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = AFG
+	}
+}

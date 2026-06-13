@@ -1,0 +1,29 @@
+state={
+	id=323
+	name="STATE_323"
+	state_category = town
+	provinces={
+		591 984 3601 6611 11564 11901 13252 13438 
+	}
+	manpower=400000
+	local_supplies=0
+	history = {
+		owner = YUG
+		add_core_of = YUG
+		add_claim_by = CRO
+
+		victory_points = {
+			13252 20
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+			13252  = {
+				naval_base = 2
+			}
+		}
+		
+	}
+}

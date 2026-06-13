@@ -1,0 +1,13 @@
+state={
+	id=266
+	name="STATE_266"
+	provinces={
+		1952 2008 2083 4956 10172 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = MEX
+	}
+}

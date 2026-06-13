@@ -1,0 +1,54 @@
+joint_focus = {
+	id = EUR_make_love_not_war
+	icon = GFX_focus_generic_diplomatic_treaty
+	x = 10
+	y = 5
+
+	cost = 10
+
+	available = {
+		has_global_flag = schuman_declaration
+	}
+
+	joint_trigger = {
+		capital = {
+			is_on_continent = europe
+		}
+		has_government = democratic
+	}
+
+	#allow_branch = {
+	#	has_government = democratic
+	#}
+
+	completion_reward_joint_originator = {
+		add_political_power = 100
+	}
+
+	completion_reward_joint_member = {
+		add_political_power = 25
+	}
+}
+
+joint_focus = {
+	id = EUR_european_steel_and_coal_community
+	x = 0
+	y = 1
+	relative_position_id = EUR_make_love_not_war
+
+	cost = 10
+
+	prerequisite = {
+		focus = EUR_make_love_not_war
+	}
+
+	joint_trigger = {
+		capital = {
+			is_on_continent = europe
+		}
+		has_government = democratic
+	}
+
+	completion_reward = {
+	}
+}

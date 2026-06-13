@@ -1,0 +1,24 @@
+state={
+	id=443
+	name="STATE_443"
+	state_category = town
+	provinces={
+		569 583 3553 9429 11525 11556 
+	}
+	manpower=1500000
+	local_supplies=0
+	history = {
+		owner = CZE
+		add_core_of = CZE
+
+		victory_points = {
+			569  20
+		}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 3
+		}
+	}
+}

@@ -1,0 +1,23 @@
+capital = 50
+
+recruit_character = SPA_francisco_franco
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1936.4.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascism = 60
+	neutrality = 25
+	democratic = 10
+	communism = 5
+}
+
+add_ideas = {
+	isolation
+	partial_economic_mobilisation
+	limited_conscription
+}

@@ -1,0 +1,13 @@
+state={
+	id=950
+	name="STATE_950"
+	provinces={
+		96 1684 1729 3336 3415 4669 4733 4761 7689 7809 8461 9142 10536 10564 10635 12545 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = SOV
+	}
+}

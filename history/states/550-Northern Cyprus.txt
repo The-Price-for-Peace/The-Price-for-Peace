@@ -1,0 +1,17 @@
+state={
+	id=550
+	name="STATE_550"
+	provinces={
+		11984
+	}
+	manpower=96712
+	state_category = rural
+	local_supplies=0
+	history = {
+		owner = ENG
+
+		victory_points = {
+			11984 2
+		}
+	}
+}

@@ -1,0 +1,13 @@
+state={
+	id=753
+	name="STATE_753"
+	provinces={
+		4553 8040 8125 10523 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = PER
+	}
+}

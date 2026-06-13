@@ -1,0 +1,29 @@
+state={
+	id=140
+	name="STATE_140"
+	provinces={
+		281 348 395 3384 6332 11265 
+	}
+	manpower=465000
+	state_category = city
+	history = {
+		owner = SOV
+		add_core_of = SOV
+		add_claim_by = GER
+
+		victory_points = {
+			6332 15
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+			6332 = {
+				naval_base = 2
+			}
+
+			air_base = 2
+		}
+	}
+}

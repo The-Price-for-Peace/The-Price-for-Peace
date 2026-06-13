@@ -1,0 +1,25 @@
+state={
+	id=55
+	name="STATE_55"
+	manpower=382932
+
+	state_category = town
+
+	history = {
+		owner = SPA
+		add_core_of = SPA
+		add_core_of = NAV
+
+		victory_points = {
+			3933 15
+		}
+
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces={
+		932 3737 3931 3933 6903 9857 13465 
+	}
+}

@@ -1,0 +1,13 @@
+state={
+	id=662
+	name="STATE_662"
+	provinces={
+		4126 10110 11948 11977 12085 13426 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = SKO
+	}
+}

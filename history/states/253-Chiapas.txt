@@ -1,0 +1,13 @@
+state={
+	id=253
+	name="STATE_253"
+	provinces={
+		1900 12753 12867 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = MEX
+	}
+}

@@ -1,0 +1,13 @@
+state={
+	id=701
+	name="STATE_701"
+	provinces={
+		4273 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = INS
+	}
+}

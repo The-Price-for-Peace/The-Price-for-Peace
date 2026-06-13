@@ -1,0 +1,15 @@
+state={
+	id=367
+	name="STATE_367"
+	provinces={
+		4992 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = FRA
+	}
+	impassable = yes
+	force_link_ownership_to = 281
+}

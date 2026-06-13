@@ -1,0 +1,14 @@
+state={
+	id=834
+	name="STATE_834"
+	provinces={
+		1897 1962 7943 8035 10779 10838 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	impassable = yes
+	history = {
+		owner = FRA
+	}
+}

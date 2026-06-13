@@ -1,0 +1,490 @@
+focus_tree = {
+	id = sov_dem
+
+	country = {
+		factor = 10
+		
+		modifier = {
+			add = 10
+			tag = SOV
+		}
+	}
+
+	focus = {
+		id = sov_dem1
+		icon = GFX_focus_AFG_parliamentary_democracy
+		x = 14
+		y = 0
+		available = {
+			has_government = democratic
+		}
+		cost = 5
+
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = sov_dem2
+		icon = GFX_SOV_planned_economy_ccp_2d_sov_compatibility
+		relative_position_id = sov_dem1
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = sov_dem1
+		}
+		cost = 10
+		completion_reward = {
+			add_political_power = -100
+		}
+	}
+	focus = {
+		id = sov_dem3
+		icon = GFX_focus_mex_privatisation
+		relative_position_id = sov_dem2
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = sov_dem2
+		}
+		cost = 10
+		completion_reward = {
+			add_political_power = -150
+		}
+	}
+	focus = {
+		id = sov_dem4
+		icon = GFX_SOV_inheritor_of_the_mantle_of_lenin_ccp_2d_sov_compatibility
+		relative_position_id = sov_dem3
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = sov_dem3
+		} 
+		cost = 10
+		completion_reward = {
+			add_political_power = 50
+			add_stability = -0.2
+		}
+	}
+	focus = {
+		id = sov_dem5
+		icon = GFX_SOV_barrier_troops_ccp_2d_sov_compatibility
+		relative_position_id = sov_dem4
+		x = 2
+		y = 1
+		prerequisite = {
+			focus = sov_dem4
+		}
+		cost = 5
+		completion_reward = {
+			add_political_power = 50
+			add_stability = -0.1
+		}
+	}
+	focus = {
+		id = sov_dem6
+		icon = GFX_focus_CHI_planned_economy
+		relative_position_id = sov_dem4
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = sov_dem4
+		}
+		cost = 5
+		completion_reward = {
+			add_political_power = 20
+			add_stability = -0.6
+		}
+	}
+	focus = {
+		id = sov_dem7
+		icon = GFX_focus_mex_privatisation
+		relative_position_id = sov_dem4
+		x = -2
+		y = 1
+		prerequisite = {
+			focus = sov_dem4
+		}
+		cost = 10
+		completion_reward = {
+			add_political_power = 20
+		}
+	}
+	focus = {
+		id = sov_dem8
+		icon = GFX_focus_usa_union_representation_act
+		relative_position_id = sov_dem6
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = {
+			focus = sov_dem6
+		}
+		completion_reward = {
+			add_political_power = 30
+		}
+	}
+	focus = {
+		id = sov_dem9
+		icon = GFX_focus_AFG_parliamentary_democracy
+		relative_position_id = sov_dem5
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = {
+			focus = sov_dem5
+		}
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+	focus = {
+		id = sov_dem10
+		icon = GFX_focus_PAR_neuter_the_guion_rojo
+		relative_position_id = sov_dem9
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = {
+			focus = sov_dem9
+		}
+		completion_reward = {
+			add_political_power = 20
+		}
+	}
+	focus = {
+		id = sov_dem11
+		icon = GFX_goal_demand_sudetenland
+		relative_position_id = sov_dem8
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = sov_dem8
+	}
+	completion_reward = {
+		add_political_power = -60
+	}
+	}
+	focus = {
+		id = sov_dem12 
+		icon = GFX_goal_support_democracy
+		relative_position_id = sov_dem11
+		x = 0
+		y = 1
+		cost = 15
+		prerequisite = {
+			focus = sov_dem11
+		}
+		completion_reward = {
+			add_political_power = 20
+			add_stability = 0.2
+		}
+	}
+	focus = {
+		id = sov_dem13
+		icon = GFX_goal_support_democracy
+		relative_position_id = sov_dem12
+		x = 2
+		y = 1
+		cost = 10
+		prerequisite = {
+			focus = sov_dem12
+		}
+		completion_reward = {
+			add_political_power = 20
+			add_stability = 0.5
+		}
+	}
+	focus = {
+		id = sov_dem14
+		icon = GFX_goal_support_democracy
+		relative_position_id = sov_dem12
+		x = 0 
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = sov_dem12
+		}
+		completion_reward = {
+			add_political_power = 10
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = sov_dem15
+		icon = GFX_goal_support_democracy
+		relative_position_id = sov_dem14
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = {
+			focus = sov_dem14
+		}
+		completion_reward = {
+			add_political_power = 70
+			add_stability = 0.2
+		}
+	}
+	focus = {
+		id = sov_dem16
+		icon = GFX_SOV_carry_revolution_east_ccp_2d_sov_compatibility
+		relative_position_id = sov_dem7
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = {
+			focus = sov_dem7
+		}
+		completion_reward = {
+			add_political_power = -20
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = sov_dem17
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 10
+		relative_position_id = sov_dem15
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = sov_dem15
+			focus =  sov_dem20
+			focus = sov_dem18
+		}
+		completion_reward = {
+			create_wargoal = {
+				target = XXX
+				type = x
+			}
+		 }
+	}
+	focus = {
+		id = sov_dem18
+		icon = GFX_focus_PRC_petition_for_freedom
+		cost = 5
+		relative_position_id = sov_dem13
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = sov_dem13
+		}
+		completion_reward = {
+			add_political_power = 10
+		 }
+	}
+	focus = {
+		id = sov_dem19
+		icon = GFX_focus_mex_privatisation
+		cost = 10
+		relative_position_id = sov_dem12
+		x = -2
+		y = 1
+		prerequisite = {
+			focus = sov_dem12
+		}
+		completion_reward = {
+			add_stability = 0.2
+		 }
+	}
+	focus = {
+		id = sov_dem20
+		icon = GFX_focus_mex_privatisation
+		cost = 10
+		relative_position_id = sov_dem19
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = sov_dem19
+		}
+		completion_reward = { 
+			add_stability = 0.2
+		}
+	}
+
+	focus = {
+		id = sov_dem21
+		icon = GFX_goal_generic_demand_territory
+		cost = 10
+		relative_position_id = sov_dem17
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = sov_dem17
+		}
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = sov_dem22
+		icon = GFX_focus_JAP_further_urban_investments
+		cost = 5
+		relative_position_id = sov_dem21
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = sov_dem21
+		}
+		completion_reward = {
+			X
+		}
+	}
+	focus = {
+		id = sov_dem23
+		icon = GFX_goal_generic_demand_territory
+		cost = 10
+		relative_position_id = sov_dem22
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = sov_dem22
+		}
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = sov_dem24
+		icon = GFX_focus_generic_election
+		cost = 5
+		relative_position_id = sov_dem23
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = sov_dem23
+		}
+		completion_reward = {
+			X
+		}
+	}
+	focus = {
+		id = sov_dem25
+		icon = GFX_focus_JAP_further_urban_investments
+		cost = 10
+		relative_position_id = sov_dem24
+		x = 0 
+		y = 1
+		prerequisite = {
+			focus = sov_dem24
+		}
+		completion_reward = {
+			X
+		}
+	}
+	focus = {
+		id = sov_dem26
+		icon = GFX_SOV_return_democracy_to_the_party_ccp_2d_sov_compatibility
+		cost = 5
+		relative_position_id = sov_dem25
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = sov_dem25
+		}
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+	focus = {
+		id = sov_dem27
+		icon = GFX_focus_CZE_army_reform
+		cost = 10
+		relative_position_id = sov_dem26
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = sov_dem26
+		}
+		completion_reward = {
+			add_political_power = 10
+		}
+	}
+	focus = {
+		id = sov_dem28
+		icon = GFX_focus_JAP_rely_on_infantry_charges
+		cost = 5
+		relative_position_id = sov_dem27
+		x = -2
+		y = 1
+		prerequisite = {
+			focus = sov_dem27
+		}
+		completion_reward = {
+			Infantry stuff
+		}
+	}
+	focus = {
+		id = sov_dem29
+		icon = GFX_focus_generic_tank_production
+		cost = 5
+		relative_position_id = sov_dem27
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = sov_dem27
+		}
+		completion_reward = {
+			tank imp
+		}
+	}
+	focus = {
+		id = sov_dem30
+		icon = GFX_SOV_soviet_artillery_ccp_2d_sov_compatibility
+		cost = 5
+		relative_position_id = sov_dem27
+		x = 2
+		y = 1
+		prerequisite = {
+			focus = sov_dem27
+		}
+		completion_reward = {
+			artil
+		}
+	}
+	focus = {
+		id = sov_dem31
+		icon = GFX_focus_generic_tank_production
+		cost = 10
+		relative_position_id = sov_dem29
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = sov_dem29
+		}
+		completion_reward = {
+			T90res boost
+		}
+	}
+	focus = {
+		id = sov_dem32
+		icon = GFX_focus_generic_tank_production
+		cost = 5
+		relative_position_id = sov_dem31
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = sov_dem31
+		}
+		completion_reward = {
+			boost prod
+		}
+	}
+	focus = {
+		id = sov_dem33
+		icon = GFX_focus_JAP_further_urban_investments
+		cost = 10
+		relative_position_id = sov_dem28
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = sov_dem28
+		}
+		completion_reward = {
+			Infantry
+		}
+	}
+}
+1021 days

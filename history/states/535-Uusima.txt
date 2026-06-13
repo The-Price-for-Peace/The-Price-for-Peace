@@ -1,0 +1,13 @@
+state={
+	id=535
+	name="STATE_535"
+	provinces={
+		204 3161 6009 6108 6144 9129 11031 11105 11211 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = FIN
+	}
+}

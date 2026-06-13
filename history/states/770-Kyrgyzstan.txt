@@ -1,0 +1,13 @@
+state={
+	id=770
+	name="STATE_770"
+	provinces={
+		1483 1591 1675 1825 1840 2058 4224 4316 4391 4768 5062 10408 10530 10660 12370 12430 12511 12526 12581 12583 13147 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = SOV
+	}
+}

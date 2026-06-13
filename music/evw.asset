@@ -1,0 +1,215 @@
+music = {
+	name = "worldwariii"
+	file = "evw/worldwar3.ogg"
+	volume = 1
+}
+music = {
+	name = "allesbattle1"
+	file = "evw/alliesbattle1.ogg"
+	volume = 1
+}
+music = {
+	name = "alliespeace1"
+	file = "evw/alliespeace1.ogg"
+	volume = 1
+}
+music = {
+	name = "alliespeace2"
+	file = "evw/alliespeace2.ogg"
+	volume = 1
+}
+music = {
+	name = "alliespeace3"
+	file = "evw/alliespeace3.ogg"
+	volume = 1
+}
+music = {
+	name = "anuncertainfuture"
+	file = "evw/anuncertainfuture.ogg"
+	volume = 1
+}
+music = {
+	name = "apathofdanger"
+	file = "evw/apathofdanger.ogg"
+	volume = 1
+}
+music = {
+	name = "astateofpanic"
+	file = "evw/astateofpanic.ogg"
+	volume = 1
+}
+music = {
+	name = "beacon"
+	file = "evw/beacon.ogg"
+	volume = 1
+}
+music = {
+	name = "delightfulpoetry"
+	file = "evw/delightfulpoetry.ogg"
+	volume = 1
+}
+music = {
+	name = "democraticrebellion"
+	file = "evw/democraticrebellion.ogg"
+	volume = 1
+}
+music = {
+	name = "desertatdusk"
+	file = "evw/desertatdusk.ogg"
+	volume = 1
+}
+music = {
+	name = "dilemma"
+	file = "evw/dilemma.ogg"
+	volume = 1
+}
+music = {
+	name = "diminishment"
+	file = "evw/diminishment.ogg"
+	volume = 1
+}
+music = {
+	name = "float"
+	file = "evw/float.ogg"
+	volume = 1
+}
+music = {
+	name = "generalbattlei"
+	file = "evw/generalbattle1.ogg"
+	volume = 1
+}
+music = {
+	name = "gradient"
+	file = "evw/gradient.ogg"
+	volume = 1
+}
+music = {
+	name = "gridlock"
+	file = "evw/gridlock.ogg"
+	volume = 1
+}
+music = {
+	name = "latinbattle"
+	file = "evw/latinbattle.ogg"
+	volume = 1
+}
+music = {
+	name = "meo"
+	file = "evw/meo.ogg"
+	volume = 1
+}
+music = {
+	name = "neutralisavedbychoppers"
+	file = "evw/neutral1.ogg"
+	volume = 1
+}
+music = {
+	name = "defcon3neutralii"
+	file = "evw/neutral2.ogg"
+	volume = 1
+}
+music = {
+	name = "nondemocraticrebellion"
+	file = "evw/nondemocraticrebellion.ogg"
+	volume = 1
+}
+music = {
+	name = "nonplus"
+	file = "evw/nonplus.ogg"
+	volume = 1
+}
+music = {
+	name = "defcon1nuclearbomb"
+	file = "evw/nuclearbomb.ogg"
+	volume = 1
+}
+music = {
+	name = "nukeatmosphere"
+	file = "evw/nukeatmosphere.ogg"
+	volume = 1
+}
+music = {
+	name = "orient"
+	file = "evw/orient.ogg"
+	volume = 1
+}
+music = {
+	name = "panorama"
+	file = "evw/panorama.ogg"
+	volume = 1
+}
+music = {
+	name = "responsibilities"
+	file = "evw/responsibilities.ogg"
+	volume = 1
+}
+music = {
+	name = "russianbattlei"
+	file = "evw/russianbattle1.ogg"
+	volume = 1
+}
+music = {
+	name = "russianpeacei"
+	file = "evw/russianpeace1.ogg"
+	volume = 1
+}
+music = {
+	name = "russianpeaceii"
+	file = "evw/russianpeace2.ogg"
+	volume = 1
+}
+music = {
+	name = "sandstruggle"
+	file = "evw/sandstruggle.ogg"
+	volume = 1
+}
+music = {
+	name = "spanishheart"
+	file = "evw/spanishheart.ogg"
+	volume = 1
+}
+music = {
+	name = "superpowers"
+	file = "evw/superpowers.ogg"
+	volume = 1
+}
+music = {
+	name = "takeoff"
+	file = "evw/takeoff.ogg"
+	volume = 1
+}
+music = {
+	name = "tiesarebroken"
+	file = "evw/tiesarebroken.ogg"
+	volume = 1
+}
+music = {
+	name = "tranquillite"
+	file = "evw/tranquillite.ogg"
+	volume = 1
+}
+music = {
+	name = "voicesthroughlights"
+	file = "evw/voicesthroughlights.ogg"
+	volume = 1
+}
+music = {
+	name = "watervapour"
+	file = "evw/watervapour.ogg"
+	volume = 1
+}
+music = {
+	name = "waveform"
+	file = "evw/waveform.ogg"
+	volume = 1
+}
+music = {
+	name = "defcon2wearysituation"
+	file = "evw/wearysituation.ogg"
+	volume = 1
+}
+music = {
+	name = "worldatwar"
+	file = "evw/worldatwar.ogg"
+	volume = 1
+}

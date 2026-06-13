@@ -1,0 +1,20 @@
+state={
+	id=247
+	name="STATE_247"
+	state_category = rural
+	provinces={
+		6940 6953 9849 9874 
+	}
+	manpower=764000
+	local_supplies=0
+	history = {
+		owner = YUG
+		add_core_of = YUG
+		add_claim_by = ALB
+		add_claim_by = KOS
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

@@ -1,0 +1,13 @@
+state={
+	id=667
+	name="STATE_667"
+	provinces={
+		1100 7175 7204 10115 11992 13428 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = SKO
+	}
+}

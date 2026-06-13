@@ -1,0 +1,45 @@
+﻿l_english:
+
+###################################################
+################## LEADER TRAITS ##################
+###################################################
+
+ unpopular_outsider:0 "Unpopular Outsider"
+
+##################################################
+################### CHARACTERS ###################
+##################################################
+
+# West Germany
+ GER_konrad_adenauer:0 "Konrad Adenauer"
+ GER_albert_schnez:0 "Albert Schnez"
+ GER_ludwig_erhard:0 "Ludwig Erhard"
+ GER_wilhelm_iii:0 "Wilhelm III"
+ GER_viktoria:0 "ViKtoria Luise"
+
+# USA
+ USA_harry_s_truman:0 "Harry S. Truman"
+ USA_dwight_d_eisenhower:0 "Dwight D. Eisenhower"
+ USA_douglas_macarthur:0 "Douglas MacArthur"
+
+# United Kingdom
+ ENG_clement_attlee:0 "Clement Attlee"
+ ENG_winston_churchill:0 "Winston Churchill"
+ ENG_bernard_law_montgomery:0 "Bernard Law Montgomery"
+
+# Soviet Union
+ SOV_iosif_stalin:0 "Iosif Stalin"
+ SOV_georgy_zhukov:0 "Georgy Zhukov"
+
+# Poland
+ POL_boleslav_bierut:0 "Bolesław Bierut"
+ POL_konstantin_rokossovsky:0 "Konstantin Rokossovsky"
+
+# PRC
+ PRC_mao_zedong:0 "Mao Zedong"
+
+# North Korea
+ NKO_kim_il_sung:0 "Kim Il-sung"
+
+#Spain
+ SPA_francisco_franco:0 "Francisco Franco"

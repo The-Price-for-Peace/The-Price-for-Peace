@@ -1,0 +1,13 @@
+state={
+	id=765
+	name="STATE_765"
+	provinces={
+		1948 2017 2062 2078 8053 12871 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = AFG
+	}
+}

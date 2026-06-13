@@ -1,0 +1,13 @@
+state={
+	id=190
+	name="STATE_190"
+	provinces={
+		1977 2003 2046 7989 10902 12725 13400 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = EGY
+	}
+}

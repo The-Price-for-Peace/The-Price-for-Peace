@@ -1,0 +1,28 @@
+# Original implementation by Scars: https://steamcommunity.com/sharedfiles/filedetails/?id=3734748611
+
+d_test_cap = {
+	set_temp_variable = { temp_winning_country = GER }
+	set_temp_variable = { temp_losing_country = POL }
+
+	every_country = {
+		limit = { is_ai = no }
+		resize_array = { array = winning_country size = 20 value = 0 }
+		resize_array = { array = losing_country size = 20 value = 0 }
+
+		for_loop_effect = {
+			start = 0
+			end = 20
+			break = b
+			value = v
+
+			if = {
+				limit = {
+					check_variable = { winning_country^v = 0 }
+				}
+				set_variable = { winning_country^v = temp_winning_country }
+				set_variable = { losing_country^v = temp_losing_country }
+				set_temp_variable = { b = 1 }
+			}
+		}
+	}
+}

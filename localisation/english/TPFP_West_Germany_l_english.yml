@@ -1,0 +1,59 @@
+﻿l_english:
+
+# DECISIONS
+ remilitarization_category:0 "Remilitarization"
+ remilitarization_category_desc:0 "Current public support for remilitarization is [checkRemilitarization]"
+ GER_remilitarization_support_high:0 "§GHigh ([?GER_remilitarization_support])§!"
+ GER_remilitarization_support_medium:0 "§YMedium ([?GER_remilitarization_support])§!"
+ GER_remilitarization_support_low:0 "§RLow ([?GER_remilitarization_support])§!"
+ remilitarization_small_increase:0 "Remilitarization support will increase by a small amount"
+ remilitarization_medium_increase:0 "Remilitarization support will increase by a medium amount"
+ remilitarization_large_increase:0 "Remilitarization support will increase by a large amount"
+ emphasize_the_soviet_threat:0 "Emphasize the Soviet threat"
+
+# IDEAS
+ operation_paperclip:0 "Operation Paperclip"
+ denazification1:0 "Denazification"
+ denazification2:0 "Denazification"
+
+ GER_grundgesetz_fake:0 "Grundgesetz"
+ GER_grundgesetz:0 "Grundgesetz"
+ GER_grundgesetz_tt: "§RSo long as this National Spirit is active, conscription law cannot be raised beyond 'Disarmed Nation'. Units cannot be trained, disbanded or have their templates modified§!"
+ GER_grundgesetz_army:0 "Grundgesetz"
+
+##### NATIONAL FOCUSES #####
+ west_germany_focus:0 "West German Focus Tree"
+
+ # Economy
+ GER_economic_recovery:0 "Economic Recovery"
+ GER_economic_recovery_desc:0 ""
+
+ # Armed Forces
+ GER_wiederbewaffnung:0 "Wiederbewaffnung"
+ GER_wiederbewaffnung_desc:0 ""
+ remilitarization_support_high:0 "Public support for remilitarization is at least §GHigh (80)§!"
+ GER_establish_the_bundeswehr:0 "[GER_establish_the_bundeswehr_name]"
+ GER_establish_the_bundeswehr_communism:0 "Establish The Volkswehr"
+ GER_establish_the_bundeswehr_democratic:0 "Establish The Bundeswehr"
+ GER_establish_the_bundeswehr_default:0 "Reestablish the Wehrmacht"
+ GER_establish_the_bundeswehr_desc:0 ""
+ GER_establish_the_bundeswehr_tt:0 "§YAllows raising conscription law, training and disbanding units and modifying templates§!"
+
+ # Historical | Democratic
+ GER_a_new_germany:0 "A New Germany"
+ GER_a_new_germany_desc:0 ""
+
+ # Alt hist | Fascism
+ GER_beaten_but_not_defeated:0 "Beaten But Not Defeated"
+ GER_beaten_but_not_defeated_desc:0 ""
+ GER_rally_the_schnez_truppe:0 "Rally The Schnez Truppe"
+ GER_rally_the_schnez_truppe_desc:0 ""
+ GER_rally_the_schnez_truppe_tt:0 "The §YSchenz Truppe§! will join our side in the upcomming civil war"
+
+ # Joint East-West reunification tree
+ GER_the_wall_falls:0 "The Wall Falls"
+ GER_the_wall_falls_desc:0 ""
+ GER_west_german_unification:0 "West Germany Takes The Lead"
+ GER_west_german_unification_desc:0 ""
+ GER_east_german_unification:0 "East Germany Takes The Lead"
+ GER_east_german_unification_desc:0 ""

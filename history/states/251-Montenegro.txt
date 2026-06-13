@@ -1,0 +1,27 @@
+state={
+	id=251
+	name="STATE_251"
+	state_category = rural
+	provinces={
+		937 6913 9809 9821 11858 
+	}
+	manpower=402000
+	local_supplies=0
+	history = {
+		owner = YUG
+		add_core_of = YUG
+		add_claim_by = MNT
+
+		victory_points = {
+			9821 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			dockyard = 1
+			9821 = {
+				naval_base = 2
+			}
+		}
+	}
+}

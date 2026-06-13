@@ -1,0 +1,13 @@
+state={
+	id=885
+	name="STATE_885"
+	provinces={
+		1510 1579 1622 4513 4557 7497 7574 8120 9946 10171 10332 10401 10469 12375 12420 12480 12490 12854 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = IND
+	}
+}

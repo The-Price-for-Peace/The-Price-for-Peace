@@ -1,0 +1,13 @@
+state={
+	id=597
+	name="STATE_597"
+	provinces={
+		5152 5184 5219 7550 12970 12998 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = ARG
+	}
+}

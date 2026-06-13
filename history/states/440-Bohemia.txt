@@ -1,0 +1,25 @@
+state={
+	id=440
+	name="STATE_440"
+	state_category = city
+	provinces={
+		543 5283 6418 6440 6592 7857 9421 9541 9569 11542 13453 13456 13459 13460 
+	}
+	manpower=3500000
+	local_supplies=0
+	history = {
+		owner = CZE
+		add_core_of = CZE
+
+		victory_points = {
+			13453 40
+		}
+
+		buildings = {
+			infrastructure = 3
+		    arms_factory = 2
+			industrial_complex = 4
+			air_base = 3
+		}
+	}
+}

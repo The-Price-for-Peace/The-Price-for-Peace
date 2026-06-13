@@ -1,0 +1,20 @@
+state={
+	id=320
+	name="STATE_320"
+	state_category = rural
+	provinces={
+		11735 
+	}
+	manpower=50000
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = YUG
+		add_core_of = YUG
+		add_claim_by = CRO
+
+		buildings = {
+			infrastructure = 3
+		}
+	}
+}

@@ -1,0 +1,22 @@
+﻿l_english:
+
+# Original implementation by Scars: https://steamcommunity.com/sharedfiles/filedetails/?id=3734748611
+
+##=== Main GUI text ===##
+
+peace_capitulation_title: "Conflict Alert"
+peace_capitulation_main: "[hoi4pc_get_header]"
+peace_capitulation_desc: "[hoi4pc_get_desc]"
+peace_capitulation_close: "[hoi4pc_get_close]"
+peace_capitulation_close_good: "Great news!"
+peace_capitulation_close_bad: "These are dark times."
+peace_capitulation_close_neutral: "Uncertain times."
+peace_capitulation_close_default: "Close"
+
+##=== Header ===##
+
+hoi4pc_header.normal: "§Y[?winning_country^peace_gui_index.GetNameDefCap]§! has defeated §Y[?losing_country^peace_gui_index.GetNameDef]§! in an armed conflict."
+
+##=== Desc ===##
+
+hoi4pc_desc.default: "War is hell."

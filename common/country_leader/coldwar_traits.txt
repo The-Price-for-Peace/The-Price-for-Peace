@@ -1,0 +1,9 @@
+leader_traits = {
+	
+	unpopular_outsider = {
+		random = no
+
+		stability_factor = -0.1
+	}
+	
+}

@@ -1,0 +1,13 @@
+state={
+	id=500
+	name="STATE_500"
+	provinces={
+		6237 6268 6318 6335 6384 9315 9379 11345 11382 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = ENG
+	}
+}

@@ -1,0 +1,13 @@
+state={
+	id=386
+	name="STATE_386"
+	provinces={
+		3530 3574 3692 6542 6568 6712 11486 11640 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = GER
+	}
+}

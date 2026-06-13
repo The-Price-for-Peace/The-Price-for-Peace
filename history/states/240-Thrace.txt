@@ -1,0 +1,28 @@
+state={
+	id=240
+	name="STATE_240"
+	state_category = rural
+	provinces={
+		9791 9930 11774 11905 
+	}
+	manpower=500000
+	local_supplies=0
+	history = {
+		owner = GRE
+		add_core_of = GRE
+
+		victory_points = {
+			11905 10
+		}
+
+					
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			dockyard = 1
+			11774 = {
+				naval_base = 2
+			}
+		}
+	}
+}

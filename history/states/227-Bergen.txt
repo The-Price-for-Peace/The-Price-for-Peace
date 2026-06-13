@@ -1,0 +1,13 @@
+state={
+	id=227
+	name="STATE_227"
+	provinces={
+		122 199 3114 3188 6145 9047 9170 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = NOR
+	}
+}

@@ -1,0 +1,59 @@
+# Original implementation by Scars: https://steamcommunity.com/sharedfiles/filedetails/?id=3734748611
+
+
+defined_text = {
+	name = hoi4pc_get_header
+
+	## Default fallback ##
+	text = {
+		localization_key = hoi4pc_header.normal
+	}
+}
+
+defined_text = {
+	name = hoi4pc_get_desc
+
+	## Default fallback ##
+	text = {
+		localization_key = hoi4pc_desc.default
+	}
+}
+
+defined_text = {
+	name = hoi4pc_get_close
+
+	text = {
+		trigger = {
+			OR = {
+				any_allied_country = {
+					has_war_with = losing_country^peace_gui_index
+				}
+				has_war_with = losing_country^peace_gui_index
+			}
+		}
+		localization_key = peace_capitulation_close_good
+	}
+	text = {
+		trigger = {
+			OR = {
+				tag = losing_country^peace_gui_index
+				has_war_together_with = losing_country^peace_gui_index
+				is_in_faction_with = losing_country^peace_gui_index
+			}
+		}
+		localization_key = peace_capitulation_close_bad
+	}
+	text = {
+		trigger = {
+			NOT = {
+				has_war_together_with = losing_country^peace_gui_index
+				is_in_faction_with = losing_country^peace_gui_index
+				any_allied_country = { has_war_with = losing_country^peace_gui_index }
+				has_war_with = losing_country^peace_gui_index
+				tag = losing_country^peace_gui_index
+			}
+		}
+		localization_key = peace_capitulation_close_neutral
+	}
+}
+

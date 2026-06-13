@@ -1,0 +1,59 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			FRA = {
+				news_event = {
+					id = europe.1
+					days = 130
+				}
+			}
+			GER = {
+				remove_ideas = GER_grundgesetz_fake
+			}
+		}
+	}
+	on_daily_CHI = {
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						has_global_flag = ccw_ended
+						any_controlled_state = {
+							NOT = {
+								state = 28
+							}
+						}
+					}
+				}
+				country_event = ccw_end.1
+				set_global_flag = ccw_ended
+			}
+		}
+	}
+
+	on_nuke_drop = {
+		effect = {
+			if = {
+				limit = {
+					has_global_flag = worldwariiistart
+				}
+				play_song = "nukeatmosphere"
+				set_global_flag = worldwariii
+			}
+			else = {
+				if = {
+					limit = {
+						NOT = {
+							has_global_flag = worldwariii
+						}
+					}
+					set_global_flag = {
+						flag = worldwariiistart
+						days = 14
+						value = 1
+					}
+				}
+			}
+		}
+	}
+}

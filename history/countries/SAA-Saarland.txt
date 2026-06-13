@@ -1,0 +1,8 @@
+capital = 62
+
+FRA = {
+	set_autonomy = {
+		target = SAA
+		autonomy_state = autonomy_satellite
+	}
+}

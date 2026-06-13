@@ -1,0 +1,16 @@
+containerWindowType = {
+	name = "spaceflight_topbar_button_container"
+	position = { x = -400 y = 45 }
+	size = { width = 40 height = 40 }
+	Orientation = UPPER_RIGHT
+	
+	buttonType = {
+		name = "open_spaceflight_window_button"
+		position = { x = 0 y = 0 }
+		quadTextureSprite = "GFX_sort_button_83x29"
+		buttonFont = "hoi_16mbs"
+		text = "open_spaceflight"
+		clicksound = click_default
+		pdx_tooltip = spaceflight_button_tt
+	}
+}

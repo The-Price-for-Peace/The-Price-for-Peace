@@ -1,0 +1,13 @@
+state={
+	id=561
+	name="STATE_561"
+	provinces={
+		2023 7993 10747 10790 12703 12845 12872 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = COL
+	}
+}

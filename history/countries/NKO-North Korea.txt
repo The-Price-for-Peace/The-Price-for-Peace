@@ -1,0 +1,15 @@
+capital = 658
+
+recruit_character = NKO_kim_il_sung
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1949.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 90
+	neutrality = 10
+}

@@ -1,0 +1,13 @@
+state={
+	id=741
+	name="STATE_741"
+	provinces={
+		1427 4319 4348 7338 7367 7587 10193 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = SIA
+	}
+}

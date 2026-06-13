@@ -1,0 +1,13 @@
+state={
+	id=1035
+	name="STATE_1035"
+	provinces={
+		13054 13055 13056 13057 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = USA
+	}
+}

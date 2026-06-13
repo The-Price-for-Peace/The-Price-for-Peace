@@ -1,0 +1,174 @@
+ 
+music_station = "evw"
+
+music = {
+	song = "worldwariii"
+}
+
+music = {
+	song = "allesbattle1"
+}
+
+music = {
+	song = "alliespeace1"
+}
+
+music = {
+	song = "alliespeace2"
+}
+
+music = {
+	song = "alliespeace3"
+}
+
+music = {
+	song = "anuncertainfuture"
+}
+
+music = {
+	song = "apathofdanger"
+}
+
+music = {
+	song = "astateofpanic"
+}
+
+music = {
+	song = "beacon"
+}
+
+music = {
+	song = "delightfulpoetry"
+}
+
+music = {
+	song = "democraticrebellion"
+}
+
+music = {
+	song = "desertatdusk"
+}
+
+music = {
+	song = "dilemma"
+}
+
+music = {
+	song = "diminishment"
+}
+
+music = {
+	song = "float"
+}
+
+music = {
+	song = "generalbattlei"
+}
+
+music = {
+	song = "gradient"
+}
+
+music = {
+	song = "gridlock"
+}
+
+music = {
+	song = "latinbattle"
+}
+
+music = {
+	song = "meo"
+}
+
+music = {
+	song = "neutralisavedbychoppers"
+}
+
+music = {
+	song = "defcon3neutralii"
+}
+
+music = {
+	song = "nondemocraticrebellion"
+}
+
+music = {
+	song = "nonplus"
+}
+
+music = {
+	song = "defcon1nuclearbomb"
+}
+
+music = {
+	song = "nukeatmosphere"
+}
+
+music = {
+	song = "orient"
+}
+
+music = {
+	song = "panorama"
+}
+
+music = {
+	song = "responsibilities"
+}
+
+music = {
+	song = "russianbattlei"
+}
+
+music = {
+	song = "russianpeacei"
+}
+
+music = {
+	song = "russianpeaceii"
+}
+
+music = {
+	song = "sandstruggle"
+}
+
+music = {
+	song = "spanishheart"
+}
+
+music = {
+	song = "superpowers"
+}
+
+music = {
+	song = "takeoff"
+}
+
+music = {
+	song = "tiesarebroken"
+}
+
+music = {
+	song = "tranquillite"
+}
+
+music = {
+	song = "voicesthroughlights"
+}
+
+music = {
+	song = "watervapour"
+}
+
+music = {
+	song = "waveform"
+}
+
+music = {
+	song = "defcon2wearysituation"
+}
+
+music = {
+	song = "worldatwar"
+}

@@ -1,0 +1,14 @@
+state={
+	id=828
+	name="STATE_828"
+	provinces={
+		1956 4913 7939 8028 8128 10758 10780 10805 10917 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	impassable = yes
+	history = {
+		owner = FRA
+	}
+}

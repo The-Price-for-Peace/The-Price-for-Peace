@@ -1,0 +1,28 @@
+state={
+	id=236
+	name="STATE_236"
+	state_category = large_town
+	provinces={
+		1173 4078 4178 4193 7096 7211 11965 
+	}
+	manpower=1000000
+	local_supplies=0
+	history = {
+		owner = GRE
+		add_core_of = GRE
+		
+		victory_points = {
+			7096 15
+		}
+
+		victory_points = {
+			7211 15
+		}
+
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			industrial_complex = 2
+		}
+	}
+}

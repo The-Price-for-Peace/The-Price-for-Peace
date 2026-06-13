@@ -1,0 +1,13 @@
+state={
+	id=820
+	name="STATE_820"
+	provinces={
+		1914 1953 2096 4033 7996 10764 10857 10859 10877 10908 12744 12800 12887 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = EGY
+	}
+}

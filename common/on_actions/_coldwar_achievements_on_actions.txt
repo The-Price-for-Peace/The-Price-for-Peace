@@ -1,0 +1,93 @@
+on_actions = {
+	on_nuke_drop = {
+		effect = {
+			if = {
+				limit = {
+					ROOT = {
+						tag = JAP
+						is_ai = no
+						OR = {
+							has_government = fascism
+							has_government = neutrality
+						}
+					}
+					FROM = {
+						controller = {
+							original_tag = USA
+						}
+					}
+				}
+				JAP = {
+					set_country_flag = achievement_JAP_the_empire_strikes_back
+				}
+			}
+			if = {
+				limit = {
+					ROOT = {
+						tag = USA
+						is_ai = no
+					}
+					FROM = {
+						state = 484 #Warsaw
+					}
+				}
+				USA = {
+					set_country_flag = achievement_USA_wasteland_pact
+				}
+			}
+			if = {
+				limit = {
+					ROOT = {
+						tag = SPA
+						is_ai = no
+					}
+					FROM = {
+						OR = {
+							state = 35 #Vascongadas
+							state = 37 #Catluña
+						}
+					}
+				}
+				SPA = {
+					set_country_flag = achievement_SPA_no_more_separatism
+				}
+			}
+			if = {
+				limit = {
+					ROOT = {
+						tag = USA
+						is_ai = no
+					}
+					FROM = {
+						controller = {
+							original_tag = JAP
+						}
+					}
+				}
+				set_country_flag = achievement_USA_round_two
+			}
+			set_country_flag = achievement_zero_seconds_to_midnight
+		}
+	}
+	on_capitulation = {
+		effect = {
+			if = {
+				limit = {
+					ROOT = {
+						tag = PRC
+					}
+					FROM = {
+						tag = CHI
+						is_ai = no
+					}
+					NOT = {
+						has_global_flag = PRC_victory
+					}
+				}
+				CHI = {
+					set_country_flag = achievement_CHI_i_did_hear_no_bell
+				}
+			}
+		}
+	}
+}

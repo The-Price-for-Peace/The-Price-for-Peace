@@ -1,0 +1,13 @@
+state={
+	id=447
+	name="STATE_447"
+	provinces={
+		1426 1785 4720 4787 12503 13165 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = CAN
+	}
+}

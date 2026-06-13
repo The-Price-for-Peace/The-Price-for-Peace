@@ -1,0 +1,156 @@
+focus_tree = {
+	id = west_germany_focus
+	country = {
+		base = 0
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+
+	continuous_focus_position = {
+		x = 0
+		y = 4000
+	}
+
+	shared_focus = EUR_make_love_not_war
+	shared_focus = GER_the_wall_falls
+
+	# INDUSTRY
+	focus = {
+		id = GER_economic_recovery
+		icon = GFX_focus_generic_economic_recovery
+		cost = 10
+		x = 2
+		y = 0
+
+		completion_reward = { }
+	}
+
+	# MILITARY
+	focus = {
+		id = GER_wiederbewaffnung
+		icon = GFX_focus_secret_rearmament
+		cost = 5
+		x = 12
+		y = 0
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = remilitarization_support_high
+				check_variable = {
+					var = GER_remilitarization_support
+					value > 79
+				}
+			}
+		}
+		
+		completion_reward = {
+			custom_effect_tooltip = GER_wiederbewaffnung_tt
+			army_experience = 25
+		}
+	}
+	focus = {
+		id = GER_establish_the_bundeswehr
+		icon = {
+			GFX_focus_GER_defender_of_democracy = {
+				has_government = democratic
+			}
+		}
+		icon = {
+			GFX_focus_PRC_army_command = {
+				has_government = communism
+			}
+		}
+		icon = GFX_focus_GER_army
+		dynamic = yes
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = GER_wiederbewaffnung
+
+		prerequisite = {
+			focus = GER_wiederbewaffnung
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = GER_establish_the_bundeswehr_tt
+			hidden_effect = {
+				remove_dynamic_modifier = {
+					modifier = GER_grundgesetz
+				}
+				add_dynamic_modifier = {
+					modifier = GER_grundgesetz_army
+				}
+				force_update_dynamic_modifier = yes
+				country_lock_all_division_template = no
+			}
+		}
+	}
+
+	# HISTORICAL
+	focus = {
+		id = GER_a_new_germany
+		icon = GFX_focus_GER_tend_to_the_future
+		cost = 5
+		x = 22
+		y = 0
+
+		mutually_exclusive = {
+			focus = GER_beaten_but_not_defeated
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.05
+			}
+		}
+	}
+
+	# ALT HIST | FASCISM
+	focus = {
+		id = GER_beaten_but_not_defeated
+		icon = GFX_focus_GER_propaganda_master
+		x = 32
+		y = 0
+
+		cost = 5
+
+		mutually_exclusive = {
+			focus = GER_a_new_germany
+		}
+		
+		available = {
+			NOT = {
+				has_completed_focus = GER_establish_the_bundeswehr
+			}
+		}
+
+		completion_reward = {
+			add_political_power = 20
+			swap_ideas = {
+				remove_idea = denazification1
+				add_idea = denazification2
+			}
+		}
+	}
+
+	focus = {
+		id = GER_rally_the_schnez_truppe
+		icon = GFX_focus_GER_army
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = GER_beaten_but_not_defeated
+		prerequisite = {
+			focus = GER_beaten_but_not_defeated
+		}
+		completion_reward = {
+			custom_effect_tooltip = GER_rally_the_schnez_truppe_tt
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.025
+			}
+		}
+	}
+}

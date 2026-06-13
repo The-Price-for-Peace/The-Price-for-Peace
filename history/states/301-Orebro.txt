@@ -1,0 +1,13 @@
+state={
+	id=301
+	name="STATE_301"
+	provinces={
+		114 3106 6084 6164 6188 9209 11044 11197 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = SWE
+	}
+}

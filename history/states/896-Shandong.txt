@@ -1,0 +1,13 @@
+state={
+	id=896
+	name="STATE_896"
+	provinces={
+		1069 1104 1124 1154 1184 1200 4037 4071 4089 4157 4181 4186 4205 7055 7089 7105 7200 9956 9971 10018 10043 10072 10102 12015 12045 12069 12074 13430 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = PRC
+	}
+}

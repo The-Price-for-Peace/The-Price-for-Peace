@@ -1,0 +1,99 @@
+add_namespace = ccw_end
+
+country_event = { #Retreat to Taiwan
+	id = ccw_end.1
+	title = ccw_end.1.t
+	desc = ccw_end.1.desc
+
+	is_triggered_only = yes #Triggered through on_actions
+	fire_only_once = yes
+
+	option = {
+		name = ccw_end.1.a
+		hidden_effect = {
+			white_peace = PRC
+			news_event = {
+				id = ccw_end.2
+				days = 7
+			}
+			set_global_flag = PRC_victory
+		}
+		custom_effect_tooltip = ccw_will_end_tt
+	}
+}
+
+news_event = { #End of the Chinese Civil War ### PRC victory ###
+	id = ccw_end.2
+	title = ccw_end.2.t
+	desc = ccw_end.2.desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+
+	option = { #Positive reaction, eastern block
+		name = ccw_end.2.a
+		trigger = {
+			OR = {
+				has_government = communism
+				is_subject_of = SOV
+			}
+			NOT = {
+				tag = CHI
+				tag = PRC
+			}
+		}
+	}
+	option = { #Negative reaction, western aligned countries
+		name = ccw_end.2.b
+		trigger = {
+			OR = {
+				has_government = democratic
+				is_in_faction_with = USA
+				AND = {
+					has_guaranteed = USA
+					USA = {
+						has_guaranteed = ROOT
+					}
+				}
+				has_dynamic_modifier = nato
+				is_subject_of = USA
+				is_subject_of = ENG
+			}
+			NOT = {
+				tag = CHI
+				tag = PRC
+			}
+		}
+	}
+	option = { #Taiwan
+		name = ccw_end.2.c
+		trigger = {
+			tag = CHI
+		}
+	}
+	option = { #PRC
+		name = ccw_end.2.d
+		trigger = {
+			tag = PRC
+		}
+	}
+	option = {# Neutral reaction, everyone else
+		name = ccw_end.2.e
+		trigger = {
+			NOT = {
+				has_government = communism
+				has_government = democratic
+				USA = {
+					has_guaranteed = ROOT
+				}
+				has_dynamic_modifier = nato
+				is_subject_of = SOV
+				is_subject_of = USA
+				is_subject_of = ENG
+				tag = PRC
+				tag = CHI
+			}
+		}
+	}
+}

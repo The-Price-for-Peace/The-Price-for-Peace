@@ -1,0 +1,30 @@
+remilitarization_category = {
+	# Support increase tooltips:
+	#
+	# remilitarization_small_increase
+	# Small increase should be any increase below 5
+	#
+	# remilitarization_medium_increase
+	# Medium increase should be any increase between 5 and 10
+	#
+	# remilitarization_large_increase
+	# Large increase should be any increase above 10
+
+	emphasize_the_soviet_threat = {
+		icon = GFX_decision_SWI_consolidate_council_power
+
+		cost = 75
+
+		days_re_enable = 365
+
+		days_remove = 60
+
+		remove_effect = {
+			add_to_variable = {
+				var = GER_remilitarization_support
+				value = 3
+				tooltip = remilitarization_small_increase
+			}
+		}
+	}
+}

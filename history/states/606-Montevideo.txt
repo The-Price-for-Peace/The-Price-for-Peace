@@ -1,0 +1,13 @@
+state={
+	id=606
+	name="STATE_606"
+	provinces={
+		1654 4457 10362 12496 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = URG
+	}
+}

@@ -1,0 +1,13 @@
+state={
+	id=778
+	name="STATE_778"
+	provinces={
+		1509 4528 5203 10442 10668 12419 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = SAF
+	}
+}

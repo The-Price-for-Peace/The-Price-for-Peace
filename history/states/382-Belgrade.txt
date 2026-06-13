@@ -1,0 +1,25 @@
+state={
+	id=382
+	name="STATE_382"
+	state_category = city
+	provinces={
+		797 3609 9599 11583 11586 
+	}
+	manpower=800000
+	local_supplies=0
+	history = {
+		owner = YUG
+		add_core_of = YUG
+
+		victory_points = {
+			11586 40
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 2
+			air_base = 4
+		}
+	}
+}

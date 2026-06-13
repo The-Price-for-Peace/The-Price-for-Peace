@@ -1,0 +1,13 @@
+state={
+	id=609
+	name="STATE_609"
+	provinces={
+		2174 5179 5229 10987 12930 12979 13134
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = BOL
+	}
+}

@@ -1,0 +1,13 @@
+state={
+	id=601
+	name="STATE_601"
+	provinces={
+		2224 8195 8253 11001 13308 13310 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = ARG
+	}
+}

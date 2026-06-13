@@ -1,0 +1,14 @@
+state={
+	id=945
+	name="STATE_945"
+	provinces={
+		2900 2923 2972 4692 4812 4859 9224 10607 11122 11261 11328 12687 13064 13065 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	impassable = yes
+	history = {
+		owner = SOV
+	}
+}

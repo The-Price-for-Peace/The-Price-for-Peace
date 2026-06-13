@@ -1,0 +1,18 @@
+capital = 164
+
+recruit_character = ENG_clement_attlee
+recruit_character = ENG_winston_churchill
+recruit_character = ENG_bernard_law_montgomery
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1946.2.23"
+	election_frequency = "48"
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 80
+	communism = 5
+	neutrality = 15
+}

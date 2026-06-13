@@ -1,0 +1,13 @@
+state={
+	id=814
+	name="STATE_814"
+	provinces={
+		5041 13236 13240 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = ETH
+	}
+}

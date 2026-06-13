@@ -1,0 +1,28 @@
+state={
+	id=131
+	name="STATE_131"
+	provinces={
+		2031 8017 12865 
+	}
+	manpower=1500000
+	state_category = large_city
+	local_supplies=0
+	history = {
+		owner = HON
+		add_core_of = HON
+
+		victory_points = {
+			12865 10
+		}
+
+		buildings = {
+			industrial_complex = 2
+			arms_factory = 1
+			infrastructure = 2
+
+			12865 = {
+				naval_base = 2
+			}
+		}
+	}
+}

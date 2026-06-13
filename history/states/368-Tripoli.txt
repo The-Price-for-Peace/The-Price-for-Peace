@@ -1,0 +1,13 @@
+state={
+	id=368
+	name="STATE_368"
+	provinces={
+		1149 1174 1189 4051 4194 7066 7209 9980 10067 12009 12039 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = LBA
+	}
+}

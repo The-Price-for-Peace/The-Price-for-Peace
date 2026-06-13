@@ -1,0 +1,14 @@
+state={
+	id=822
+	name="STATE_822"
+	provinces={
+		7987 8103 10900 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	impassable = yes
+	history = {
+		owner = EGY
+	}
+}

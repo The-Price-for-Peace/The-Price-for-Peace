@@ -1,0 +1,13 @@
+state={
+	id=434
+	name="STATE_434"
+	provinces={
+		409 434 458 488 3452 3468 6451 6478 6597 9451 11409 11424 11438 11454 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = SOV
+	}
+}

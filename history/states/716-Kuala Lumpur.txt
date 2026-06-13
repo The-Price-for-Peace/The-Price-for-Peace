@@ -1,0 +1,13 @@
+state={
+	id=716
+	name="STATE_716"
+	provinces={
+		1376 4384 10297 12255 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = MAL
+	}
+}

@@ -1,0 +1,95 @@
+# LOCALISATION FOR THESE FOCUSES IS DEFINED IN TPFP_West_Germany
+
+joint_focus = {
+	id = GER_the_wall_falls
+	icon = GFX_focus_GER_tend_to_the_future
+	x = 4
+	y = 5
+	cost = 2
+
+	available = {
+		has_global_flag = berlin_wall_fallen
+	}
+
+	joint_trigger = {
+		OR = {
+			tag = GER
+			tag = DDR
+		}
+	}
+
+	completion_reward = {
+		GER = {
+			diplomatic_relation = {
+				relation = military_access
+				active = yes
+				country = DDR
+			}
+		}
+		DDR = {
+			diplomatic_relation = {
+				relation = military_access
+				active = yes
+				country = GER
+			}
+		}
+	}
+}
+
+joint_focus = {
+	id = GER_west_german_unification
+	icon = GFX_focus_GER_german_hegemony_in_the_middle_east_demcoratic
+	x = -2
+	y = 1
+	cost = 1
+
+	relative_position_id = GER_the_wall_falls
+
+	prerequisite = {
+		focus = GER_the_wall_falls
+	}
+
+	mutually_exclusive = {
+		focus = GER_east_german_unification
+	}
+
+	available = {
+		always = no
+	}
+
+	joint_trigger = {
+		OR = {
+			tag = GER
+			tag = DDR
+		}
+	}
+}
+
+joint_focus = {
+	id = GER_east_german_unification
+	icon = GFX_focus_GER_establish_volkskommissariats
+	x = 2
+	y = 1
+	cost = 1
+
+	relative_position_id = GER_the_wall_falls
+
+	prerequisite = {
+		focus = GER_the_wall_falls
+	}
+
+	mutually_exclusive = {
+		focus = GER_west_german_unification
+	}
+
+	available = {
+		always = no
+	}
+
+	joint_trigger = {
+		OR = {
+			tag = GER
+			tag = DDR
+		}
+	}
+}

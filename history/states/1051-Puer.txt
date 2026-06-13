@@ -1,0 +1,13 @@
+state={
+	id=1051
+	name="STATE_1051"
+	provinces={
+		1383 1522 5009 10413 10776 12262  
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = PRC
+	}
+}

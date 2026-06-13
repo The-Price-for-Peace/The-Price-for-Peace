@@ -1,0 +1,23 @@
+state={
+	id=533
+	name="STATE_533"
+	state_category = town
+	provinces={
+		674 6677 9651 11603 11636 
+	}
+	manpower=1000000
+	local_supplies=0
+	history = {
+		owner = ROM
+		add_core_of = ROM
+
+		victory_points = {
+			9651 20
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+		}
+	}
+}

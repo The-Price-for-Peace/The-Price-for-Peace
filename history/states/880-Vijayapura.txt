@@ -1,0 +1,13 @@
+state={
+	id=880
+	name="STATE_880"
+	provinces={
+		4278 4291 4395 7232 7250 7395 7411 10210 10259 10799 12105 12208 12295 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = IND
+	}
+}

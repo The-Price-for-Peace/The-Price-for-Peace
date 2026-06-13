@@ -1,0 +1,24 @@
+state={
+	id=374
+	name="STATE_374"
+	state_category = town
+	provinces={
+		878 893 6923 9862 11813 
+	}
+	manpower=500000
+	local_supplies=0
+	history = {
+		owner = BUL
+		add_core_of = BUL
+
+		victory_points = {
+			6923 20
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+	}
+}

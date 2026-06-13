@@ -1,0 +1,19 @@
+state={
+	id=242
+	name="STATE_242"
+	state_category = tiny_island
+	provinces={
+		10007 
+	}
+	manpower=100000
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = GRE
+		add_core_of = GRE
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

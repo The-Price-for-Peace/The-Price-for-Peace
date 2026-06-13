@@ -1,0 +1,13 @@
+state={
+	id=871
+	name="STATE_871"
+	provinces={
+		1159 1444 1609 1656 4062 4204 4245 4644 7220 7475 7537 7565 7593 10077 12050 12338 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = IND
+	}
+}

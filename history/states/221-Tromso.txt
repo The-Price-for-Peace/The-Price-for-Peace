@@ -1,0 +1,13 @@
+state={
+	id=221
+	name="STATE_221"
+	provinces={
+		44 91 3058 3082 11050 11090 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = NOR
+	}
+}

@@ -1,0 +1,13 @@
+characters = {
+	NKO_kim_il_sung = {
+		name = NKO_kim_il_sung
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NKO/portrait_NKO_kim_il_sung.png"
+			}
+		}
+		country_leader = {
+			ideology = marxism
+		}
+	}
+}

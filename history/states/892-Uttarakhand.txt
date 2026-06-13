@@ -1,0 +1,13 @@
+state={
+	id=892
+	name="STATE_892"
+	provinces={
+		1129 1898 2076 3989 5002 5157 7106 10021 11955 12708 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = IND
+	}
+}

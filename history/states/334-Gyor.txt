@@ -1,0 +1,32 @@
+state={
+	id=334
+	name="STATE_334"
+	state_category = town
+	provinces={
+		686 701 3683 6720 9676 11627 13125 13446 
+	}
+	manpower=1500000
+	local_supplies=0
+	history = {
+		owner = HUN
+		add_core_of = HUN
+
+		victory_points = {
+			9676 30
+		}
+
+		victory_points = {
+			13446 20
+		}
+
+		victory_points = {
+			686 10
+		}
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 2
+		}
+	}
+}

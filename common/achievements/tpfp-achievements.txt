@@ -1,0 +1,413 @@
+unique_id = thepriceforpeaceachievements_1950
+
+################################################################
+################### List of new achievements ###################
+################################################################
+
+millenium_dawn = {
+    possible = {
+        # classic triggers used in all vanilla achievements
+        difficulty > 1
+        has_any_custom_difficulty_setting = no
+        game_rules_allow_achievements = yes
+    }
+ 
+    happened = {
+        date > 1999.12.31
+    } 
+}
+
+JAP_the_empire_strikes_back = {
+	possible = {
+        # classic triggers used in all vanilla achievements
+        difficulty > 1
+        has_any_custom_difficulty_setting = no
+        game_rules_allow_achievements = yes
+		#achievment specific
+		tag = JAP
+    }
+
+	happened = {
+		has_country_flag = achievement_JAP_the_empire_strikes_back #Fascist or non aligned Japan nuked USA
+	}
+}
+
+the_wall_stands = {
+	possible = {
+        # classic triggers used in all vanilla achievements
+        difficulty > 1
+        has_any_custom_difficulty_setting = no
+        game_rules_allow_achievements = yes
+		#achievment specific
+		tag = DDR
+    }
+
+	happened = {
+		any_country_with_original_tag = {
+			original_tag_to_check = GER
+			exists = no
+		}
+	}
+}
+
+rather_red_than_dead = {
+	possible = {
+        # classic triggers used in all vanilla achievements
+        difficulty > 1
+        has_any_custom_difficulty_setting = no
+        game_rules_allow_achievements = yes
+		#achievment specific
+		tag = USA
+    }
+
+	happened = {
+		has_government = communism
+	}
+}
+
+i_did_hear_no_bell = {
+	possible = {
+        # classic triggers used in all vanilla achievements
+        difficulty > 1
+        has_any_custom_difficulty_setting = no
+        game_rules_allow_achievements = yes
+		#achievment specific
+		tag = CHI
+    }
+
+	happened = {
+		has_country_flag = achievement_CHI_i_did_hear_no_bell #Kuomingtang won Chinese Civil War
+	}
+}
+
+nobel_peace_prize = {
+	possible = {
+        # classic triggers used in all vanilla achievements
+        difficulty > 1
+        has_any_custom_difficulty_setting = no
+        game_rules_allow_achievements = yes
+		#achievment specific
+		tag = USA
+    }
+
+	happened = {
+		owns_state = 17 #Greenland
+	}
+}
+
+zero_seconds_to_midnight = {
+	possible = {
+        # classic triggers used in all vanilla achievements
+        difficulty > 1
+        has_any_custom_difficulty_setting = no
+        game_rules_allow_achievements = yes
+		#achievment specific
+    }
+
+	happened = {
+		has_country_flag = achievement_zero_seconds_to_midnight #Drop a nuke
+	}
+}
+
+is_there_someone_you_forgot_to_ask = {
+	possible = {
+        # classic triggers used in all vanilla achievements
+        difficulty > 1
+        has_any_custom_difficulty_setting = no
+        game_rules_allow_achievements = yes
+		#achievment specific
+		tag = GER
+    }
+
+	happened = {
+		owns_state = 67 #Meklenburg
+		owns_state = 70 #Brandenburg
+		owns_state = 66 #East Berlin
+		owns_state = 68 #Sachesn-Anhalt
+		owns_state = 69 #Türingen
+		owns_state = 65 #Sachsen
+		owns_state = 140 #Kaliningrad
+		owns_state = 295 #Masuria
+		owns_state = 477 #Silesia
+		owns_state = 297 #Pomerania
+		owns_state = 296 #West Pomerania
+		owns_state = 479 #Lubuskie
+	}
+}
+
+hardlining = {
+	possible = {
+        # classic triggers used in all vanilla achievements
+        difficulty > 1
+        has_any_custom_difficulty_setting = no
+        game_rules_allow_achievements = yes
+		#achievment specific
+		tag = GER
+    }
+
+	happened = {
+		has_country_flag = achievement_GER_hardlining_possible #Claimed Imperial borders
+		owns_state = 67 #Meklenburg
+		owns_state = 70 #Brandenburg
+		owns_state = 66 #East Berlin
+		owns_state = 68 #Sachesn-Anhalt
+		owns_state = 69 #Türingen
+		owns_state = 65 #Sachsen
+		owns_state = 140 #Kaliningrad
+		owns_state = 295 #Masuria
+		owns_state = 477 #Silesia
+		owns_state = 297 #Pomerania
+		owns_state = 296 #West Pomerania
+		owns_state = 479 #Lubuskie
+		owns_state = 298 #Gdansk
+		owns_state = 480 #Poznan
+		owns_state = 478 #Katowize
+		owns_state = 229 #Klaipeda
+		owns_state = 58 #Alsace-Lorraine
+	}
+}
+
+nuclear_proliferation = {
+	possible = {
+        # classic triggers used in all vanilla achievements
+        difficulty > 1
+        has_any_custom_difficulty_setting = no
+        game_rules_allow_achievements = yes
+		#achievment specific
+    }
+
+	happened = {
+		num_of_nukes > 9999
+	}
+}
+
+wasteland_pact = {
+	possible = {
+        # classic triggers used in all vanilla achievements
+        difficulty > 1
+        has_any_custom_difficulty_setting = no
+        game_rules_allow_achievements = yes
+		#achievment specific
+		tag = USA
+    }
+
+	happened = {
+		has_country_flag = achievement_USA_wasteland_pact #Nuked Warsaw
+	}
+}
+
+the_cantons_speak_cantonese = {
+	possible = {
+        # classic triggers used in all vanilla achievements
+        difficulty > 1
+        has_any_custom_difficulty_setting = no
+        game_rules_allow_achievements = yes
+		#achievment specific
+		OR = {
+			tag = CHI
+			tag = PRC
+		}
+    }
+
+	happened = {
+		controls_state = 203 #Geneva
+		controls_state = 204 #Valais
+		controls_state = 202 #Ticino
+		controls_state = 206 #Central Switzerland
+		controls_state = 205 #Graubunden
+	}
+}
+
+no_more_separatism = {
+	possible = {
+        # classic triggers used in all vanilla achievements
+        difficulty > 1
+        has_any_custom_difficulty_setting = no
+        game_rules_allow_achievements = yes
+		#achievment specific
+		tag = SPA
+    }
+	happened = {
+		has_country_flag = achievement_SPA_no_more_separatism #Nuked Basque Country or Catalonia
+	}
+}
+
+round_two = {
+	possible = {
+        # classic triggers used in all vanilla achievements
+        difficulty > 1
+        has_any_custom_difficulty_setting = no
+        game_rules_allow_achievements = yes
+		#achievment specific
+		tag = USA
+    }
+	happened = {
+		has_country_flag = achievement_USA_round_two #Nuked Japan
+	}
+}
+
+true_communism_comrade = {
+	possible = {
+        # classic triggers used in all vanilla achievements
+        difficulty > 1
+        has_any_custom_difficulty_setting = no
+        game_rules_allow_achievements = yes
+		#achievment specific
+		tag = SOV
+    }
+	happened = {
+		NOT = {
+			any_country = {
+				capital_scope = {
+					OR = {
+						is_on_continent = europe
+						is_on_continent = asia
+					}
+				}
+				NOT = {
+					has_government = communism
+				}
+			}
+		}
+	}
+}
+
+kash_money = {
+	possible = {
+        # classic triggers used in all vanilla achievements
+        difficulty > 1
+        has_any_custom_difficulty_setting = no
+        game_rules_allow_achievements = yes
+		#achievment specific
+		OR = {
+			tag = IND
+			tag = PAK
+			tag = PRC
+			tag = CHI
+		}
+    }
+	happened = {
+		owns_state = 905
+		owns_state = 906
+		owns_state = 907
+		owns_state = 908
+		owns_state = 909
+		owns_state = 910
+	}
+}
+
+its_just_like_me = {
+	possible = {
+        # classic triggers used in all vanilla achievements
+        difficulty > 1
+        has_any_custom_difficulty_setting = no
+        game_rules_allow_achievements = yes
+		#achievment specific
+		tag = YUG
+    }
+	happened = {
+		num_of_nukes > 0
+	}
+}
+
+the_international = {
+	possible = {
+        # classic triggers used in all vanilla achievements
+        difficulty > 1
+        has_any_custom_difficulty_setting = no
+        game_rules_allow_achievements = yes
+		#achievment specific
+		tag = SOV
+    }
+	happened = {
+		all_country = {
+			has_government = communism
+		}
+	}
+}
+
+not_a_surveilance_state = {
+	possible = {
+        # classic triggers used in all vanilla achievements
+        difficulty > 1
+        has_any_custom_difficulty_setting = no
+        game_rules_allow_achievements = yes
+		#achievment specific
+		tag = DDR
+    }
+	happened = {
+		agency_upgrade_number > 30
+	}
+}
+
+its_united = {
+	possible = {
+        # classic triggers used in all vanilla achievements
+        difficulty > 1
+        has_any_custom_difficulty_setting = no
+        game_rules_allow_achievements = yes
+		#achievment specific
+		tag = JAP
+    }
+	happened = {
+		owns_state = 655
+		owns_state = 656
+		owns_state = 657
+		owns_state = 658
+		owns_state = 659
+		owns_state = 660
+		owns_state = 661
+		owns_state = 662
+		owns_state = 663
+		owns_state = 664
+		owns_state = 665
+		owns_state = 666
+		owns_state = 667
+		owns_state = 668
+	}
+}
+
+what_are_you_transporting = {
+	possible = {
+        # classic triggers used in all vanilla achievements
+        difficulty > 1
+        has_any_custom_difficulty_setting = no
+        game_rules_allow_achievements = yes
+		#achievment specific
+    }
+	happened = {
+		has_equipment = {
+			convoy_1 > 5000
+		}
+	}
+}
+
+free_palestine = {
+	possible = {
+        # classic triggers used in all vanilla achievements
+        difficulty > 1
+        has_any_custom_difficulty_setting = no
+        game_rules_allow_achievements = yes
+		#achievment specific
+    }
+	happened = {
+		controls_state = 26
+		controls_state = 29
+		controls_state = 30
+		controls_state = 31
+	}
+}
+
+in_poland_im_called_russian_in_russia_im_called_polish = {
+	possible = {
+        # classic triggers used in all vanilla achievements
+        difficulty > 1
+        has_any_custom_difficulty_setting = no
+        game_rules_allow_achievements = yes
+		#achievment specific
+		original_tag = POL
+    }
+	happened = {
+		has_country_flag = POL_fired_konstantin_rokossovsky
+	}
+}

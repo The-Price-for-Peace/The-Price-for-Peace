@@ -1,0 +1,13 @@
+state={
+	id=918
+	name="STATE_918"
+	provinces={
+		1868 4801 4862 7749 7752 7823 7885 10554 12533 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = MON
+	}
+}

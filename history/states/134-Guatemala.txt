@@ -1,0 +1,28 @@
+state={
+	id=134
+	name="STATE_134"
+	provinces={
+		4991 10842 10886 13085 
+	}
+	manpower=3100000
+	state_category = large_city
+	local_supplies=0
+	history = {
+		owner = GUA
+		add_core_of = GUA
+
+		victory_points = {
+			10886 15
+		}
+
+		buildings = {
+			industrial_complex = 2
+			arms_factory = 1
+			infrastructure = 2
+
+			10886 = {
+				naval_base = 2
+			}
+		}
+	}
+}

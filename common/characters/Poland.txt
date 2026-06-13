@@ -1,0 +1,45 @@
+characters = {
+	POL_boleslav_bierut = {
+		name = POL_boleslav_bierut
+
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POL/portrait_POL_boleslav_bierut.png"
+			}
+		}
+
+		country_leader = {
+			ideology = stalinism
+		}
+	}
+
+	POL_konstantin_rokossovsky = {
+		name = POL_konstantin_rokossovsky
+
+		portraits = {
+			army = {
+				small = "GFX_idea_konstantin_rokossovsky"
+				large = GFX_portrait_SOV_konstantin_rokossovsky
+			}
+		}
+
+		corps_commander = {
+			traits = { brilliant_strategist trait_cautious armor_officer }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 4
+		}
+
+		advisor = {
+			slot = army_chief
+			idea_token = konstantin_rokossovsky
+			traits = {
+				army_chief_maneuver_3
+				unpopular_outsider
+			}
+			cost = 200
+		}
+	}
+}

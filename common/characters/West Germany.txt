@@ -1,0 +1,99 @@
+characters = {
+	# COUNTRY LEADERS
+	GER_konrad_adenauer = {
+		name = GER_konrad_adenauer
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GER_konrad_adenauer
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = { GER_traditionalist }
+		}
+	}
+
+	GER_albert_schnez = {
+		name = GER_albert_schnez
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GER/portrait_GER_albert_schnez.png"
+			}
+			army = {
+				large = "gfx/leaders/GER/portrait_GER_albert_schnez.png"
+			}
+		}
+		country_leader = {
+			ideology = nazism
+		}
+		field_marshal = {
+		    traits = { war_hero logistics_wizard }
+		    skill = 3
+		    attack_skill = 2
+		    defense_skill = 3
+		    planning_skill = 3
+		    logistics_skill = 5
+			visible = {
+				OR = {
+					has_country_flag = GER_empower_schnez_truppe
+					has_country_flag = GER_bundeswehr_established
+				}
+			}
+		}
+		advisor = {
+			idea_token = GER_albert_schnez
+			slot = high_command
+			ledger = army
+			traits = { army_logistics_3 }
+			available = {
+				is_country_leader = no
+			}
+			cost = 100
+		}
+	}
+
+	GER_wilhelm_iii = {
+		name = GER_wilhelm_iii
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ger_wilhelm_iii
+			}	
+		}
+		country_leader = {
+			ideology = despotism
+		}
+	}
+
+	GER_viktoria = {
+		name = GER_viktoria
+		gender = female
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ger_victoria_louise
+			}
+		}
+		country_leader = {
+			ideology = despotism
+		}
+	}
+
+	# ADVISORS
+	GER_ludwig_erhard = {
+		name = GER_ludwig_erhard
+		portraits = {
+			army = {
+				small = GFX_portrait_GER_ludwig_erhard_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = GER_ludwig_erhard
+			allowed = {
+				original_tag = GER
+			}
+			traits = {
+				economic_reformer
+			}
+		}		
+	}
+}

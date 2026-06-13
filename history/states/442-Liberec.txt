@@ -1,0 +1,19 @@
+state={
+	id=442
+	name="STATE_442"
+	state_category = rural
+	provinces={
+		421 445 494 3462 9414 11401 11414 13461 
+	}
+	manpower=500000
+	local_supplies=0
+	history = {
+		owner = CZE
+		add_core_of = CZE
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+}

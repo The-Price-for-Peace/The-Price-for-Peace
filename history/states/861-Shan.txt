@@ -1,0 +1,13 @@
+state={
+	id=861
+	name="STATE_861"
+	provinces={
+		1170 1566 1607 2061 4175 4210 7400 7562 7603 7647 7909 7974 12317 12363 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = BRM
+	}
+}

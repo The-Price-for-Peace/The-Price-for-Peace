@@ -1,0 +1,15 @@
+﻿l_english:
+
+ ccw_will_end_tt:0 "§YThe Chinese Civil War will end§!"
+
+ ccw_end.1.t:0 "Retreat to Taiwan"
+ ccw_end.1.desc:0 ""
+ ccw_end.1.a:0 "PLACEHOLDER"
+
+ ccw_end.2.t:0 "End of the Chinese Civil War"
+ ccw_end.2.desc:0 "With the retreat of the last Kuomingtang forces to the island of Formosa, [PRC.GetNameDef] has won the Chinese Civil War."
+ ccw_end.2.a:0 "A great victory for the Chinese worker!"
+ ccw_end.2.b:0 "Perhaps we should have helped."
+ ccw_end.2.c:0 "What will be of China..."
+ ccw_end.2.d:0 "The Dragon rises again!"
+ ccw_end.2.e:0 "The boodshed is over."

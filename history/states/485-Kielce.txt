@@ -1,0 +1,13 @@
+state={
+	id=485
+	name="STATE_485"
+	provinces={
+		562 3458 3586 3497 6416 11430 11532
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = POL
+	}
+}

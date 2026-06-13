@@ -1,0 +1,9 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "evw_album_art"
+		texturefile = "gfx/musicstations/evw.dds"
+		noOfFrames = 2
+	}	
+
+}

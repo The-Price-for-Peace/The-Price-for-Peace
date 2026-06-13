@@ -1,0 +1,13 @@
+state={
+	id=860
+	name="STATE_860"
+	provinces={
+		1014 1142 1333 3651 10182 10223 12090 12284 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = BRM
+	}
+}

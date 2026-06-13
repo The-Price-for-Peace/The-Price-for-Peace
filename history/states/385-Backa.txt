@@ -1,0 +1,21 @@
+state={
+	id=385
+	name="STATE_385"
+	provinces={
+		619 3617 3623 9621 
+	}
+	manpower=1000000
+	local_supplies=0
+	state_category = rural
+	history = {
+		owner = YUG
+		add_core_of = YUG
+
+		victory_points = {
+			3617 20
+		}
+		victory_points = {
+			9621 20
+		}
+	}
+}

@@ -1,0 +1,13 @@
+state={
+	id=991
+	name="STATE_991"
+	provinces={
+		226 333 344 366 2999 3215 3323 3358 6022 6122 6245 9046 9256 9265 9302 9343 11236 11250 11315 11326 11349 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = SOV
+	}
+}

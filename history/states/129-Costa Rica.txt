@@ -1,0 +1,26 @@
+state={
+	id=129
+	name="STATE_129"
+	provinces={
+		12878 13087 13092 
+	}
+	state_category = city
+	manpower=800875
+	local_supplies=0
+	history = {
+		owner = COS
+		add_core_of = COS
+
+		victory_points = {
+			13087 5
+		}
+
+		buildings = {
+			industrial_complex = 2
+			infrastructure = 2
+			13087 = {
+				naval_base = 1
+			}
+		}
+	}
+}

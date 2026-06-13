@@ -1,0 +1,13 @@
+state={
+	id=764
+	name="STATE_764"
+	provinces={
+		5064 5082 8090 10789 12769 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = AFG
+	}
+}

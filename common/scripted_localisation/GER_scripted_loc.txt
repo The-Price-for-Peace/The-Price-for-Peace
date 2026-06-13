@@ -1,0 +1,43 @@
+defined_text = {
+	name = GER_establish_the_bundeswehr_name
+	text = {
+		trigger = {
+			has_government = communism
+		}
+		localization_key = GER_establish_the_bundeswehr_communism
+	}
+	text = {
+		trigger = {
+			has_government = democratic
+		}
+		localization_key = GER_establish_the_bundeswehr_democratic
+	}
+	text = {
+		localization_key = GER_establish_the_bundeswehr_default
+	}
+}
+
+defined_text = {
+	name = checkRemilitarization
+	text = {
+		trigger = {
+			check_variable = {
+				var = GER_remilitarization_support
+				value > 79
+			}
+		}
+		localization_key = GER_remilitarization_support_high
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = GER_remilitarization_support
+				value > 49
+			}
+		}
+		localization_key = GER_remilitarization_support_medium
+	}
+	text = {
+		localization_key = GER_remilitarization_support_low
+	}
+}

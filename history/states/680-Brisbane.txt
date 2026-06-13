@@ -1,0 +1,13 @@
+state={
+	id=680
+	name="STATE_680"
+	provinces={
+		1472 1570 2116 4481 4502 4517 4530 4546 4632 5198 5227 7522 7535 7564 7592 7651 7666 10430 10445 10941 11006 12308 12451 12949 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = AST
+	}
+}

@@ -1,0 +1,13 @@
+state={
+	id=923
+	name="STATE_923"
+	provinces={
+		1689 1774 4751 4777 7773 7799 7843 7870 10539 10563 10669 10695 12520 12544 12695
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = MON
+	}
+}

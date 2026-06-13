@@ -1,0 +1,13 @@
+state={
+	id=410
+	name="STATE_410"
+	provinces={
+		532 3541 3571 11497 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = GER
+	}
+}

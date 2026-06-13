@@ -1,0 +1,31 @@
+state={
+	id=355
+	name="STATE_355"
+	state_category = large_town
+	provinces={
+		3985 6614 6942 6957 9586 9894 9922 11872 13436 
+	}
+	manpower=1000000
+	local_supplies=0
+	history = {
+		owner = YUG
+		add_core_of = YUG
+		add_claim_by = BOS
+
+		victory_points = {
+			11872 20
+		}
+		victory_points = {
+			6614 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 2
+			dockyard = 1
+			13436  = {
+				naval_base = 1
+			}
+		}
+	}
+}

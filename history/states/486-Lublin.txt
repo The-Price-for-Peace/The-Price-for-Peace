@@ -1,0 +1,13 @@
+state={
+	id=486
+	name="STATE_486"
+	provinces={
+		3521 3559 6484 9452 9494 9521 11399 11466 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = POL
+	}
+}

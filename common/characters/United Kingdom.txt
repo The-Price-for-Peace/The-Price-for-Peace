@@ -1,0 +1,76 @@
+characters = {
+	ENG_clement_attlee = {
+		name = ENG_clement_attlee
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/portrait_ENG_clement_attlee.png"
+			}
+		}
+
+		country_leader = {
+			ideology = liberalism
+		}
+	}
+
+	ENG_winston_churchill={
+		name=ENG_winston_churchill
+		portraits={
+			civilian={
+				large=GFX_portrait_ENG_winston_churchill
+			}
+			army={
+				small="GFX_idea_ENG_winston_churchill"
+			}
+		}
+
+		country_leader={
+			ideology=conservatism
+			traits = {
+				british_bulldog
+			}
+		}
+	}
+
+	ENG_bernard_law_montgomery={
+		name=ENG_bernard_law_montgomery
+		portraits={
+			army={
+				small="GFX_idea_bernard_montgomery"
+			}
+			army={
+				large=GFX_portrait_ENG_bernard_montgomery
+			}
+		}
+		advisor={
+			cost = 150
+			slot = theorist
+			idea_token = bernard_law_montgomery
+			ledger = army
+			allowed = {
+				original_tag = ENG
+			}
+			
+			traits = {
+				grand_battle_plan_expert
+			}
+
+			ai_will_do = {
+				base = 2
+				modifier = {
+					has_idea_with_trait = industrial_concern
+					has_idea_with_trait = silent_workhorse
+					factor = 5
+				}
+			}
+		}
+		
+		field_marshal={
+			traits={ inflexible_strategist trait_cautious media_personality organizer logistics_wizard offensive_doctrine }
+			skill=4
+			attack_skill=2
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=4
+		}
+	}
+}

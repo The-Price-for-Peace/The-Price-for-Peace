@@ -1,0 +1,13 @@
+state={
+	id=396
+	name="STATE_396"
+	provinces={
+		688 3675 3684 3703 6691 6708 9665 11634 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = USA
+	}
+}

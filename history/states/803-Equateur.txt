@@ -1,0 +1,13 @@
+state={
+	id=803
+	name="STATE_803"
+	provinces={
+		988 7219 7931 8016 8048 10071 10883 10951 12741 12775 12824 13370 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = COG
+	}
+}

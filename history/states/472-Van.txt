@@ -1,0 +1,13 @@
+state={
+	id=472
+	name="STATE_472"
+	provinces={
+		652 864 1463 4583 6935 7470 7530 11880 12318 12376 12476 13121 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = TUR
+	}
+}

@@ -1,0 +1,13 @@
+state={
+	id=781
+	name="STATE_781"
+	provinces={
+		7770 8136 10957 10978 12519 12921 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = SAF
+	}
+}

@@ -1,0 +1,13 @@
+state={
+	id=499
+	name="STATE_499"
+	provinces={
+		6221 6270 9239 9268 9297 11221 11279 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = ENG
+	}
+}

@@ -1,0 +1,13 @@
+state={
+	id=658
+	name="STATE_658"
+	provinces={
+		1003 4052 4107 7070 7155 7171 9790 10065 10083 11770 11915 12040 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = NKO
+	}
+}

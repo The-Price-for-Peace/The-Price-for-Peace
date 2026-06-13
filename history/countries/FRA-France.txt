@@ -1,0 +1,15 @@
+capital = 180
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1946.11.10"
+	election_frequency = 60
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 80
+	communism = 15
+	neutrality = 3
+	fascism = 2
+}

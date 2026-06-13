@@ -1,0 +1,22 @@
+state={
+	id=250
+	name="STATE_250"
+	provinces={
+		13377 
+	}
+	manpower=150
+	state_category = enclave
+	history = {
+		owner = ENG
+		add_core_of = ENG
+		add_core_of = CYP
+
+		buildings = {
+			infrastructure = 3
+			air_base = 4
+			13377 = {
+				naval_base = 1
+			}
+		}
+	}
+}

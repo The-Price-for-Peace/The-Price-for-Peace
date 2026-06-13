@@ -1,0 +1,13 @@
+state={
+	id=854
+	name="STATE_854"
+	provinces={
+		1179 5043 5075 5105 7847 7917 8013 8044 8066 8098 12761 12774 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = PAK
+	}
+}

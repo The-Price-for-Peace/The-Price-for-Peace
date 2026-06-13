@@ -1,0 +1,13 @@
+state={
+	id=724
+	name="STATE_724"
+	provinces={
+		4429 7419 10145 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = PHI
+	}
+}

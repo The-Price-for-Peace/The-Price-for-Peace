@@ -1,0 +1,13 @@
+state={
+	id=643
+	name="STATE_643"
+	provinces={
+		1024 1063 1165 3848 4067 4118 4122 4153 6870 6873 6994 7169 9807 9859 9865 11847 12056 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = JAP
+	}
+}

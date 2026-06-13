@@ -1,0 +1,24 @@
+state={
+	id=435
+	name="STATE_435"
+	state_category = large_town
+	provinces={
+		463 501 522 3225 3455 3520 6565 9477 9566 11462 11553 
+	}
+	manpower=1700000
+	local_supplies=0
+	history = {
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = UKR
+
+		victory_points = {
+			3520 15
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+	}
+}

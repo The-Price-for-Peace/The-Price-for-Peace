@@ -1,0 +1,13 @@
+state={
+	id=678
+	name="STATE_678"
+	provinces={
+		1498 1511 1540 2177 2186 2201 4645 5125 5170 5207 7579 7608 8152 8209 8247 10473 10937 10950 10958 10971 11016 12323 12993 13133 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = AST
+	}
+}

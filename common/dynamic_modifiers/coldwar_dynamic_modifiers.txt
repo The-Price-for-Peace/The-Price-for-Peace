@@ -1,0 +1,46 @@
+### FACTION NATIONAL SPIRITS ###
+nato = {
+    #todo
+}
+
+warsaw_pact = {
+    #todo
+}
+
+### COUNTRY SPECIFIC MODIFIERS ###
+# When possible, use ideas
+
+GER_grundgesetz = {
+    icon = GFX_idea_generic_constitutional_guarantees
+    
+    enable = {
+        always = yes
+    }
+
+    political_power_factor = var:GER_grundgesetz_pp_factor
+    democratic_drift = var:GER_grundgesetz_democratic_drift
+    stability_factor = var:GER_grundgesetz_stability
+    justify_war_goal_time = var:GER_grundgesetz_justification_time
+    political_advisor_cost_factor = var:GER_grundgesetz_advisor_cost
+    improve_relations_maintain_cost_factor = var:GER_grundgesetz_relations_cost
+    drift_defence_factor = var:GER_grundgesetz_drift_defence
+
+    custom_modifier_tooltip = generic_skip_one_line_tt
+    custom_modifier_tooltip = GER_grundgesetz_tt
+}
+
+GER_grundgesetz_army = {
+    icon = GFX_idea_generic_constitutional_guarantees
+    
+    enable = {
+        always = yes
+    }
+
+    political_power_factor = var:GER_grundgesetz_pp_factor
+    democratic_drift = var:GER_grundgesetz_democratic_drift
+    stability_factor = var:GER_grundgesetz_stability
+    justify_war_goal_time = var:GER_grundgesetz_justification_time
+    political_advisor_cost_factor = var:GER_grundgesetz_advisor_cost
+    improve_relations_maintain_cost_factor = var:GER_grundgesetz_relations_cost
+    drift_defence_factor = var:GER_grundgesetz_drift_defence
+}

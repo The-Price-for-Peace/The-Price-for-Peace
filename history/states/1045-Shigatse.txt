@@ -1,0 +1,13 @@
+state={
+	id=1045
+	name="STATE_1045"
+	provinces={
+		2014 2098 4900 5018 8121 12807 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = TIB
+	}
+}

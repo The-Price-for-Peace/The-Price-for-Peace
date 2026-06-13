@@ -1,0 +1,13 @@
+state={
+	id=138
+	name="STATE_138"
+	provinces={
+		792 1108 11919 
+	}
+	manpower=1350000
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = LEB
+	}
+}

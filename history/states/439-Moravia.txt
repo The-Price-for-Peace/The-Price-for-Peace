@@ -1,0 +1,27 @@
+state={
+	id=439
+	name="STATE_439"
+	state_category = city
+	provinces={
+		557 3414 3569 3583 3718 6485 6562 6576 6590 9551 9567 11511 13451 13455 13457 
+	}
+	manpower=3000000
+	local_supplies=0
+	history = {
+		owner = CZE
+		add_core_of = CZE
+
+		victory_points = {
+			6576 20
+		}
+		victory_points = {
+			3569 15
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 2
+		}
+	}
+}

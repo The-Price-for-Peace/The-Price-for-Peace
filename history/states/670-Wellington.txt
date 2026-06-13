@@ -1,0 +1,13 @@
+state={
+	id=670
+	name="STATE_670"
+	provinces={
+		1786 1801 1814 4804 7692 7783 7826 12604 12617 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = NZL
+	}
+}

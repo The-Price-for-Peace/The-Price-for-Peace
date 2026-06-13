@@ -1,0 +1,23 @@
+state={
+	id=316
+	name="STATE_316"
+	provinces={
+		4967 
+	}
+	manpower=74448
+	state_category = small_island
+	history = {
+		owner = ENG
+		add_core_of = MLD
+
+		victory_points = {
+			4967 1
+		}
+
+		buildings = {
+			4967 = {
+				naval_base = 1
+			}
+		}
+	}
+}

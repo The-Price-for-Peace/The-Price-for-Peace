@@ -1,0 +1,25 @@
+state={
+	id=423
+	name="STATE_423"
+	state_category = large_town
+	provinces={
+		523 547 570 6505 6519 9446 9461 9476 11487 11513
+	}
+	manpower=1700000
+	local_supplies=0
+	history = {
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = UKR
+
+		victory_points = {
+			9461 20
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex =  2
+			arms_factory = 1
+		}
+	}
+}

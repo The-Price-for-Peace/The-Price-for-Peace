@@ -1,0 +1,13 @@
+state={
+	id=800
+	name="STATE_800"
+	provinces={
+		191 1516 1731 1817 1929 1968 2024 4515 4941 7161 7716 9986 10858 12795 12907 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = COG
+	}
+}

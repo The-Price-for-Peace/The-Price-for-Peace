@@ -1,0 +1,19 @@
+state={
+	id=534
+	name="STATE_534"
+	provinces={
+		6157 
+	}
+	manpower=50
+	state_category = enclave
+	local_supplies=0
+	history = {
+		owner = SOV
+		add_core_of = FIN
+		add_core_of = SOV
+
+		buildings = {
+			naval_base = 5
+		}
+	}
+}

@@ -1,0 +1,18 @@
+state={
+	id=36
+	name="STATE_36"
+	manpower=229791
+	state_category = rural
+
+	history = {
+		owner = SPA
+		add_core_of = SPA
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		3902 11852 
+	}
+}

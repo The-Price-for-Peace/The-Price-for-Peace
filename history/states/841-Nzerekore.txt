@@ -1,0 +1,13 @@
+state={
+	id=841
+	name="STATE_841"
+	provinces={
+		5039 8008 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = FRA
+	}
+}

@@ -1,0 +1,46 @@
+add_namespace = europe
+
+news_event = { # Schuman Declaration
+	id = europe.1
+	title = europe.1.t
+	desc = europe.1.desc
+
+	major = yes
+
+	immediate = {
+		set_global_flag = schuman_declaration
+	}
+
+	option = {
+		name = europe.1.a
+		trigger = {
+			capital = {
+				is_on_continent = europe
+			}
+			has_government = democratic
+		}
+	}
+
+	option = {
+		name = europe.1.b
+		trigger = {
+			capital = {
+				is_on_continent = europe
+			}
+			NOT = {
+				has_government = democratic
+			}
+		}
+	}
+
+	option = {
+		name = europe.1.c
+		trigger = {
+			NOT = {
+				capital = {
+					is_on_continent = europe
+				}
+			}
+		}
+	}
+}

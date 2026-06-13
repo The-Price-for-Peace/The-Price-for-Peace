@@ -1,0 +1,13 @@
+state={
+	id=843
+	name="STATE_843"
+	provinces={
+		7959 8006 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = LIB
+	}
+}

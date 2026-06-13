@@ -1,0 +1,13 @@
+state={
+	id=954
+	name="STATE_954"
+	provinces={
+		1664 1679 1726 1757 1784 1828 1856 4715 4730 4817 7738 7750 7768 7781 7837 7867 7882 10533 10561 10592 10620 10663 12514 12517 12574 12602 12672 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = SOV
+	}
+}

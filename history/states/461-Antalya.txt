@@ -1,0 +1,13 @@
+state={
+	id=461
+	name="STATE_461"
+	provinces={
+		784 1005 1119 1122 4008 4127 10122 11917 12013 12016 12096 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = TUR
+	}
+}

@@ -1,0 +1,72 @@
+capital = 413
+
+set_research_slots = 4
+
+recruit_character = GER_konrad_adenauer
+recruit_character = GER_albert_schnez
+recruit_character = GER_wilhelm_iii
+recruit_character = GER_viktoria
+
+recruit_character = GER_ludwig_erhard
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1949.8.14"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 88
+	fascism = 5
+	communism = 5
+	neutrality = 2
+}
+
+country_lock_all_division_template = yes
+
+set_variable = {
+	var = GER_remilitarization_support
+	value = 10
+}
+
+# Grundgesetz variable setup
+set_variable = {
+	var = GER_grundgesetz_pp_factor
+	value = -0.25
+}
+set_variable = {
+	var = GER_grundgesetz_democratic_drift
+	value = 0.1
+}
+set_variable = {
+	var = GER_grundgesetz_stability
+	value = 0.025
+}
+set_variable = {
+	var = GER_grundgesetz_justification_time
+	value = 0.5
+}
+set_variable = {
+	var = GER_grundgesetz_advisor_cost
+	value = -0.1
+}
+set_variable = {
+	var = GER_grundgesetz_relations_cost
+	value = -0.25
+}
+set_variable = {
+	var = GER_grundgesetz_drift_defence
+	value = 0.5
+}
+
+add_ideas = {
+	operation_paperclip
+	disarmed_nation
+	GER_grundgesetz_fake
+	denazification1
+}
+
+add_dynamic_modifier = {
+	modifier = GER_grundgesetz
+}

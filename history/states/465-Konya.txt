@@ -1,0 +1,13 @@
+state={
+	id=465
+	name="STATE_465"
+	provinces={
+		869 940 4124 6807 6894 7026 7143 9755 9763 9830 10056 11792 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	history = {
+		owner = TUR
+	}
+}

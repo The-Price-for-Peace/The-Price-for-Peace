@@ -1,0 +1,19 @@
+capital = 985
+
+set_research_slots = 4
+
+recruit_character = SOV_iosif_stalin
+recruit_character = SOV_georgy_zhukov
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1949.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 95
+	fascism = 3
+	democratic = 2
+}
