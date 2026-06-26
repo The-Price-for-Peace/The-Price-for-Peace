@@ -9,6 +9,7 @@ tags={
 	"Technologies"
 }
 name="The Price for Peace"
+replace_path="common/abilities"
 replace_path="common/ai_areas"
 replace_path="common/ai_equipment"
 replace_path="common/ai_faction_theaters"
