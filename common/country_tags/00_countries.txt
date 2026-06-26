@@ -192,11 +192,7 @@ GRN = "countries/Greenland.txt"
 QUE = "countries/Quebec.txt"
 CBV = "countries/Cabo Verde.txt"
 KOS	= "countries/Kosovo.txt"
-FSA = "countries/Federation of South Arabia.txt"
-ASY = "countries/Assyria.txt"
 BHR = "countries/Bahrain.txt"
-
-DIP = "countries/Partisans.txt"
 
 ### The Price for Peace tags ###
 NKO = "countries/North Korea.txt"
