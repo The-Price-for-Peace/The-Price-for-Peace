@@ -255,10 +255,10 @@ focus_tree = {
 			focus = sov_dem18
 		}
 		completion_reward = {
-			create_wargoal = {
-				target = XXX
-				type = x
-			}
+			#create_wargoal = {
+			#	target = XXX
+			#	type = x
+			#}
 		 }
 	}
 	focus = {
@@ -273,7 +273,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_political_power = 10
-		 }
+		}
 	}
 	focus = {
 		id = sov_dem19
@@ -329,7 +329,7 @@ focus_tree = {
 			focus = sov_dem21
 		}
 		completion_reward = {
-			X
+			#X
 		}
 	}
 	focus = {
@@ -357,7 +357,7 @@ focus_tree = {
 			focus = sov_dem23
 		}
 		completion_reward = {
-			X
+			#X
 		}
 	}
 	focus = {
@@ -371,7 +371,7 @@ focus_tree = {
 			focus = sov_dem24
 		}
 		completion_reward = {
-			X
+			#X
 		}
 	}
 	focus = {
@@ -413,7 +413,7 @@ focus_tree = {
 			focus = sov_dem27
 		}
 		completion_reward = {
-			Infantry stuff
+			#Infantry stuff
 		}
 	}
 	focus = {
@@ -427,7 +427,7 @@ focus_tree = {
 			focus = sov_dem27
 		}
 		completion_reward = {
-			tank imp
+			#tank imp
 		}
 	}
 	focus = {
@@ -441,7 +441,7 @@ focus_tree = {
 			focus = sov_dem27
 		}
 		completion_reward = {
-			artil
+			#artil
 		}
 	}
 	focus = {
@@ -455,7 +455,7 @@ focus_tree = {
 			focus = sov_dem29
 		}
 		completion_reward = {
-			T90res boost
+			#T90res boost
 		}
 	}
 	focus = {
@@ -469,7 +469,7 @@ focus_tree = {
 			focus = sov_dem31
 		}
 		completion_reward = {
-			boost prod
+			#boost prod
 		}
 	}
 	focus = {
@@ -483,7 +483,7 @@ focus_tree = {
 			focus = sov_dem28
 		}
 		completion_reward = {
-			Infantry
+			#Infantry
 		}
 	}
 }
