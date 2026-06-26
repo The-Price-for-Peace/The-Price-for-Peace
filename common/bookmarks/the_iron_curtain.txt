@@ -5,6 +5,10 @@ bookmarks = {
 		date = 1950.1.1.12
 		picture = "GFX_select_date_1939"
 		default_country = "USA"
+
+		sort_unplayed_first = no
+		include_majors_in_minor_list = no
+		
 		default = yes
 		"USA" = {
 			history = "USA_IRON_CURTAIN_DESC"
